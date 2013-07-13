@@ -1,0 +1,40 @@
+border_size=1
+usage=map
+
+Gg, Gg, Re^Gvs, Gg, Re^Gvs, Gg, Re^Gvs, Gg, Re^Gvs, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg, Gg, Gg, Rp
+Re, Re, Gg, Re, Gg, Gg, Gg, Gg, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg, Gg, Rp, Rp, Rp
+Gg, Gg, Re, Gg, Re, Re, Gg, Gg, Gg, Gg, Re^Gvs, Gg, Re^Gvs, Gg, Re^Gvs, Gg, Gg, Gg, Gg, Rp, Rp, Rp, Rp, Gg
+Re^Gvs, Re^Gvs, Gg, Gg, Gg, Gg, Re, Re, Gs, Gs, Gg, Gg, Gg, Gg, Gg, Gg, Gg, Rp, Rp, Gg, Gg, Gg, Gg, Gg
+Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg, Gg, Re, Re, Gs, Gg, Gg, Gg, Gg, Rp, Rp, Gg, Gg, Gg, Gg, Gs^Vc, Gg, Re^Gvs
+Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg, Gg, Re, Re, Ce, Rp, Rp, Gg, Gg, Re^Gvs, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs
+Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg, Gg, Gg, Rp, Rp, Gg, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs
+Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg, Rp, Gg, Gg, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs
+Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg, Rp, Gg, Gg, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs
+Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Rp, Gg, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs
+Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Rp, Gg, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs
+Re^Gvs, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Rp, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs, Re^Gvs
+Gg, Gg, Gg, Gs, Re^Gvs, Re^Gvs, Re^Gvs, Gs, Gg, Gg, Gg, Rp, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Re^Gvs, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Gg
+Gs, Gg, Gg, Re^Gvs, Re^Gvs, Re^Gvs, Gg, Gg, Gg^Vh, Gg, Gg, Rp, Gg, Re^Gvs, Re^Gvs, Gg, Gg^Vh, Gg, Gg, Gg, Gg, Gg, Gs, Gg
+Gg, Gg, Gg, Gg, Gg, Gg, Gg, Ww, Gg^Vh, Ww, Gg, Rr, Gg, Gg, Gg, Gg^Vh, Gg, Ww, Gg, Ww, Ww, Ww, Ww, Ww
+Gg, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww^Bw|, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww, Ww
+Ww, Ww, Ww, Ww, Ww, Ww, Ww, Chr, Chr, Ww, Ww, Rr, Ww, Chr, Ww, Ww, Ww, Wo, Ww, Wo, Ww, Wo, Wo, Wo
+Ww, Wo, Wo, Ch, Wo, Wo, Wo, Gg^Vh, Gg, Gs, Gg, Rr, Gg, Gg, Chr, Gg^Vh, Hh, Hh, Wo, Hh, Wo, Hh, Hh, Hh
+Ww, Rr, Ch, Gg^Vh, Hh, Hh, Hh, Gg, Gg, Gg, Gg, Rr, Gg, Gs, Gg, Gg, Gg, Gg, Hh, Rr, Hh, Rr, Rr, Rr
+Rr, Gg, Rr, Rr, Gg, Rr, Rr, Rr, Rr, Rr, Rr, Rr, Rr, Rr, Gg, Rd, Gg, Rr, Rr, Gg, Rr, Ch, Ch, Gg
+Gg, Gg, Gg, Gg, Rr, Gg, Gg, Gg, Gg, Gs, Gg, Rr, Gg, Gg, Rd, Rd, Rd, Gs^Fdf, Rr, Rr, Gg, Chr, Rp^Vhc, Ch
+Gg, Ch, Ch, Gg, Rr, Gg, Ch, Chr, Gg, Rd, Rd, Gs^Fdw, Rd, Ce, Ce, Rd, Gs^Fdw, Gs^Fdf, Gs^Fdf, Rr, Gg, Gg, Gg, Ch
+Gg, Ch, Rp^Vhc, Ch, Ch, Ch, Rp^Vhc, Chr, Gg, Rd, Gs^Fdw, Gs^Fdf, Rd, Gg, Ce, Rd, Gs^Fdw, Gs^Fdw, Gs^Fdw, Rr, Gg, Rr, Rr, Gg
+Gg, Gg, Gg, Ch, Kh, Ch, Dd, Dd, Dd, Rd, Dd^Fdw, Dd^Fdw, Rd, Rd, Gg, Rd, Rd, Rd, Rd, Gg, Rd, Gg, Gg, Ch
+Rr, Rr, Rr, Gg, Ch, Gg, Dd, Dd, Dd, Dd^Fdw, Dd^Fdw, Rd, Rd, Rd, Rd, Rd, Dd, Dd, Ce, Ce, Rd, Gg, Gg, Gg
+Rr, Gg, Gg, Ch, Rp^Vhc, Ch, Dd, Dd, Dd, Dd, Dd, Dd, Dd, Rd, Dd, Dd, Rd, Rd, Ce, Rd, Rd, Rd, Rd, Rd
+Rr, Gg, Gg, Gg, Ch, Dd, Dd, Dd, Dd, Re, Re, Sm, Sm, Sm^Bw|, Sm, Sm, Re, Re, Rd, Rd, Rd, Dd, Dd, Gs
+Rr, Rr, Rr, Rr, Dd, Rr, Dd, Dd, Re, Sm, Qxe, Chs, Rp^Vhc, Rr, Rp^Vhcr, Ch, Sm, Sm, Re, Rd, Dd, Ce, Ce, Dd
+Gg, Rr, Gg, Ce, Dd, Re, Dd, Dd, Sm, Chs, Chs, Re, Re, Rr, Re, Re, Ch, Chr, Sm, Rd, Dd, Dd, Ce, Dd
+Gg, Rr, Ce, Ce, Dd, Dd^Fdw, Dd^Fdw, Dd, Sm, Chs, Re, Re, Qxe, Qxe, Qxe, Re, Re, Ch, Sm, Rd, Rd, Rd, Dd, Rd
+Gg, Rr, Gg, Gg, Dd, Dd^Fdw, Dd^Fdw, Dd, Sm, Chs, Re, Qxe, Qxe, Qxe, Qxe^Zcla, Qxe, Re, Ch, Sm, Rd, Dd, Ce, Rd, Rd
+Gg, Rr, Gg, Dd, Dd, Dd, Dd, Dd, Sm, Rp^Vhcr, Re, Qxe, Qxe, 1 Qxe, Qxe, Qxe, Re, Rp^Vhcr, Sm, Rd, Ce, Ce, Dd, Rd
+Gg, Gg, Rd, Gg, Gg, Dd, Dd, Dd, Qxe, Sm^Bw/, Rr, Re, Re, Qxe, Re, Re, Rr, Ss^Bw\, Sm, Rd, Rd, Rd, Rd, Rd
+Ch, Gg, Rd, Gg, Ce, Ce, Dd, Dd, Dd, Sm, Rp^Vhc, Chr, Re, Re, Re, Ch, Rp^Vhc, Qxe, Rd, Rd, Dd, Ce, Dd, Dd
+Gg, Gg, Rd, Gg, Ce, Rd, Rd, Dd^Fdw, Dd, Dd, Sm, Sm, Ch, Chr, Ch, Sm, Sm, Rd, Rd, Rd, Dd, Ce, Ce, Dd
+Ww, Ww^Bw/, Rd, Rd, Rd, Rd, Dd^Fdw, Dd^Fdw, Dd^Fdw, Dd, Dd, Dd, Sm, Sm, Sm, Rd, Rd, Ce, Dd, Dd, Rd, Rd, Gg, Rr
+Ww^Bw/, Ww, Ww, Ch, Gg, Rd, Gs^Fdw, Rd, Rd, Dd, Dd, Ce, Rd, Rd, Rd, Dd, Ce, Ce, Ce, Rd, Rd, Gll^Fdw, Rr, Gs^Fdf
