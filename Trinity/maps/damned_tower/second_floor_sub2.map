@@ -1,0 +1,23 @@
+border_size=1
+usage=map
+
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Xos, Rr, Xos, Rr, Xos, Rr, Xos, Rr, Xos, Rr, Xos, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Rr, Rr, Rr, Xos, Rr, Xos, Rr, Xos, Rr, Xos, Rr, Xos, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Rr, Xos, Rr, Rr, Xos, Xos, Xos, Rr^Bryl, Xos, Rr^Bryl, Xos, Rr^Bryl, Xos, Rr^Bryl, Xos, Xos, Rr, Rr, Xos, Rr, Rr, Rr, Xos, Xos, Xos
+Xos, Rr, Rr, Rr, Rr, Xos, Rr, Rr, Rr, Rr, Rr, 2 Rr, Rr, Rr, Rr, Rr, Rr, Xos, Rr, Rr, Xos, Xos, Xos, Rr, Xos, Xos
+Xos, Rr, Xos, Rr, Rr, Rr, Rr, Rr, Rrc, Rr, Rrc, Rrc, Rrc, Rr, Rrc, Rr, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rr, Rrc, Rrc, Rrc, Rrc, Rrc, Rrc, Rrc, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rrc, Rrc, Rrc, Rrc, Rrc, Rrc, Rrc, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Rr^Bryl, Rr, Rr, Rrc, Rrc, Rrc, Rrc, Rrc, Rrc, Rrc, Rr, Rr, Rr^Bryl, Xos, Xos, Xos, Xos, Rr, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Rr^Bryl, Rr, Rr, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Rr, Rr, Rr^Bryl, Xos, Xos, Xos, Xos, Rr, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Rr, Xos, Xos, Xos, Xos, Rr, Rr, Rr, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Xos, Xos, Xos, Xos, Rr, Rr, Rr, Rr, Rr, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rr, 1 Rrc, Rrc, 3 Rrc, Rr, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Xos, Rr, Rr, Rr, Rrc, Rrc, Rrc, Rr, Rr, Rr, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
