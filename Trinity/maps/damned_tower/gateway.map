@@ -1,17 +1,17 @@
 border_size=1
 usage=map
 
-Xos, Xos, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd, Dd, Dd, Dd, Dd, Dd, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Xos, Xos
-Xos, Xos, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd, Dd, Tmmy, Dd, Dd, Dd, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Fyok, Dd^Tbny, Dd^Tbny, Dd^Tbny, Xos, Xos
-Xos, Xos, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd, Dd^Tbny, Dd^Tbny, Dd, Dd, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Xos, Xos
-Xos, Xos^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Dd^Tbny, Xos, Xos
-Xos, Xos, Dd^Tbny, Dd^Tbny, Dd^Fyok, Dd^Tbny, Dd, Dd, Dd, Dd, Dd, Dd, Dd, Dd, Dd, Dd^Tbny, Dd, Dd^Tbny, Dd, Dd^Tbny, Xos, Xos
-Xos, Xos, Dd, Dd^Tbny, Dd, Dd, Rd, Dd^Bryl, Rd, Dd, Rb^Lyr|, Urb, Rd, Dd^Bryl, Dd, Dd, Dd^Es, Dd, Dd, Dd, Xos, Xos
-Xos, Xos, Dd, Dd, Dd, Dd, Rd^Es, Rd, Rd, Rb^Lyl|, Rb^Lyr|, Rd, Rd, Rd, Dd^Es, Dd, Dd, Dd, Dd, Dd, Xos, Xos
-Xos, Xos, Dd, Dd, Rd^Ecf, Dd, Dd, Rd, Rd, Rb^Lyl|, Rb^Lyr\, Rd, Rd, Rd, Dd, Dd^Ecf, Dd, Rd, Dd, Dd, Xos, Xos
-Xos, Xos, Dd, Dd, Rd, Dd, Dd, Rd, Rd, Rb^Lyl|, Rb, Rb^Lyr\, Rd, Rd, Rd, Dd, Rd, Rd, Rd, Dd, Xos, Xos
-Xos, Xos, Rd, Rd, Rd, 1 Dd, Dd, Rd, Rd, Rb^Lyl|, Rp, Rb^Lyr|, Urb, Urb, Urb, Urb, Urb, Rd, Urb, Urb, Xos, Xos
-Xos, Xos, Rd, Rd, Rd, Rd, Urb, Urb, Urb, Rp^Lyl|, Rr, Rp^Lyr|, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
+Xos, Xos, Xos, Xos, Xos, Xos, Uu^Tbny, Uu, Uu, Uu, Uu, Uu, Uu, Uu^Tbny, Xos, Xos, Xos, Xos, Xos, Xos, Xos, Xos
+Xos, Xos, Uu^Tbny, Uu^Tbny, Uu^Tbny, Xos, Uu^Tbny, Uu, Uu, Tmmy, Uu, Uu, Uu, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Fyok, Uu^Tbny, Uu^Tbny, Xos, Xos, Xos
+Xos, Xos, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu, Uu^Tbny, Uu^Tbny, Uu, Uu, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Xos, Xos
+Xos, Xos^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Uu^Tbny, Xos, Xos
+Xos, Xos, Uu^Tbny, Uu^Tbny, Ur^Fyok, Uu^Tbny, Uu, Uu, Uu, Uu, Uu, Uu, Uu, Uu, Uu, Uu^Tbny, Uu, Uu^Tbny, Uu, Uu^Tbny, Xos, Xos
+Xos, Xos, Uu, Ur^Tbny, Ur, Ur, Rd, Dd^Bryl, Rd, Uu, Rb^Lyr|, Urb, Rd, Dd^Bryl, Uu, Uu, Uh, Uu, Uu, Uu, Xos, Xos
+Xos, Xos, Uu, Uu, Uu, Uu, Rd^Es, Rd, Rd, Rb^Lyl|, Rb^Lyr|, Rd, Rd, Rd, Uu^Es, Uu, Uu, Uu, Uu, Uu, Xos, Xos
+Xos, Xos, Uu, Uu, Ur^Ecf, Uu, Uu, Rd, Rd, Rb^Lyl|, Rb^Lyr\, Rd, Rd, Rd, Uu, Uu^Ecf, Uu, Ur, Uu, Uu, Xos, Xos
+Xos, Xos, Uu, Uu, Ur, Uu, Uu, Rd, Rd, Rb^Lyl|, Rb, Rb^Lyr\, Rd, Rd, Rd, Uu, Ur, Ur, Ur, Uu, Xos, Xos
+Xos, Xos, Ur, Ur, Ur, 1 Uu, Uu, Rd, Rd, Rb^Lyl|, Rp, Rb^Lyr|, Urb, Urb, Urb, Urb, Urb, Ur, Urb, Urb, Xos, Xos
+Xos, Xos, Ur, Ur, Ur, Ur, Urb, Urb, Urb, Rp^Lyl|, Rr, Rp^Lyr|, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Rr^Lyl|, Rrc, Rr^Lyr|, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Rrc^Lyl|, Rrc, Rrc^Lyr|, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
 Xos, Xos, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Rrc^Lyl|, Rrc, Rrc^Lyr|, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Urb, Xos, Xos
