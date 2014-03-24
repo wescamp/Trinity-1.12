@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Trinity-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 21:31+0100\n"
+"POT-Creation-Date: 2014-03-24 03:11+0100\n"
 "PO-Revision-Date: 2013-01-30 00:21-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -321,7 +321,8 @@ msgstr ""
 #: Trinity/scenarios1/3_P04p2_Blockage.cfg:54
 #: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:146
 #: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:177
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:155
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:222
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:239
 msgid "Time runs out"
 msgstr ""
 
@@ -1108,10 +1109,11 @@ msgstr ""
 #. [message]: speaker=Dolevan
 #. [message]: speaker=Human1
 #. [message]: speaker=Ponce
+#. [race]: id=tri_avatar
+#. [race]: id=tri_mech
 #. [unit_type]: id=EchidnaLow, race=khthon
 #. [unit_type]: id=EchidnaMid, race=khthon
 #. [unit_type]: id=Harridan, race=south-seas_human
-#. [unit_type]: id=Hostage, race=primevalist_human
 #. [unit_type]: id=Lunar Bug, race=monster
 #. [unit_type]: id=Lunar Crab, race=monster
 #. [unit_type]: id=Lunar Mantis, race=monster
@@ -1133,13 +1135,13 @@ msgstr ""
 #. [unit_type]: id=Tower Servant, race=human
 #. [unit_type]: id=Tri_Bronze_Bird, race=mechanical
 #. [unit_type]: id=Tri_Flying_Platform, race=mechanical
-#. [unit_type]: id=Tri_Mech_Android, race=mechanical
-#. [unit_type]: id=Tri_Mech_Android_Leader, race=mechanical
+#. [unit_type]: id=Tri_Mech_Android, race=tri_mech
+#. [unit_type]: id=Tri_Mech_Android_Leader, race=tri_mech
 #. [unit_type]: id=Tri_Mech_Cyborg, race=undead
 #. [unit_type]: id=Tri_Mech_Cyborg_Captain, race=undead
-#. [unit_type]: id=Tri_Mech_Drill, race=mechanical
-#. [unit_type]: id=Tri_Mech_Scout, race=mechanical
-#. [unit_type]: id=Tri_Mech_Tank, race=mechanical
+#. [unit_type]: id=Tri_Mech_Drill, race=tri_mech
+#. [unit_type]: id=Tri_Mech_Scout, race=tri_mech
+#. [unit_type]: id=Tri_Mech_Tank, race=tri_mech
 #. [unit_type]: id=Tri_Pig, race=undead
 #. [unit_type]: id=Tri_Pig_2, race=undead
 #. [unit_type]: id=Tri_Silver_Bird, race=mechanical
@@ -1147,27 +1149,35 @@ msgstr ""
 #. [unit_type]: id=Virago, race=south-seas_human
 #: Trinity/scenarios1/3_H05_Encounter.cfg:257
 #: Trinity/scenarios1/3_P04_Engine.cfg:459
-#: Trinity/scenarios2/Tower_2_sub1.cfg:791 Trinity/units/Bresda.cfg:30
-#: Trinity/units/Bresda.cfg:99 Trinity/units/Bresda.cfg:200
-#: Trinity/units/Bronze_Bird.cfg:40 Trinity/units/Cannon.cfg:22
-#: Trinity/units/Chariot.cfg:39 Trinity/units/Cyan_Flyer.cfg:52
-#: Trinity/units/Echidna-Low.cfg:26 Trinity/units/Echidna-Mid.cfg:23
-#: Trinity/units/Hostage.cfg:28 Trinity/units/Lunar-Bug.cfg:31
-#: Trinity/units/Lunar-Crab.cfg:31 Trinity/units/Lunar-Mantis.cfg:31
-#: Trinity/units/Lunar-Worm.cfg:31 Trinity/units/Mechanical_Android.cfg:22
-#: Trinity/units/Mechanical_Android_General.cfg:22
-#: Trinity/units/Mechanical_Cyborg-Captain.cfg:23
-#: Trinity/units/Mechanical_Cyborg.cfg:23
-#: Trinity/units/Mechanical_Drill.cfg:20 Trinity/units/Mechanical_Scout.cfg:20
-#: Trinity/units/Mechanical_Tank.cfg:21 Trinity/units/Pig.cfg:25
-#: Trinity/units/Pig.cfg:51 Trinity/units/Ponce.cfg:38
-#: Trinity/units/Ponce.cfg:132 Trinity/units/Ponce.cfg:242
-#: Trinity/units/Primeval_Nemesis-Wounded.cfg:31
-#: Trinity/units/Seth-Beast.cfg:223 Trinity/units/Seth-Beast2.cfg:45
-#: Trinity/units/Seth-Beast3.cfg:31 Trinity/units/Seth-Beast4.cfg:31
-#: Trinity/units/Seth.cfg:24 Trinity/units/Silver_Bird.cfg:41
-#: Trinity/units/Tower_Coconut.cfg:35 Trinity/units/Tower_Dancer.cfg:21
-#: Trinity/units/Tower_Pineapple.cfg:44 Trinity/units/Tower_Servant.cfg:21
+#: Trinity/scenarios2/Tower_2_sub1.cfg:791
+#: Trinity/units/blue/Cyan_Flyer.cfg:52 Trinity/units/humans/Bresda.cfg:30
+#: Trinity/units/humans/Bresda.cfg:99 Trinity/units/humans/Bresda.cfg:200
+#: Trinity/units/humans/Cannon.cfg:22 Trinity/units/humans/Ponce.cfg:38
+#: Trinity/units/humans/Ponce.cfg:132 Trinity/units/humans/Ponce.cfg:242
+#: Trinity/units/khthon/Echidna-Low.cfg:26
+#: Trinity/units/khthon/Echidna-Mid.cfg:23
+#: Trinity/units/lunar/Lunar-Bug.cfg:31 Trinity/units/lunar/Lunar-Crab.cfg:31
+#: Trinity/units/lunar/Lunar-Mantis.cfg:31
+#: Trinity/units/lunar/Lunar-Worm.cfg:31
+#: Trinity/units/mechs/Mechanical_Android.cfg:22
+#: Trinity/units/mechs/Mechanical_Android_General.cfg:22
+#: Trinity/units/mechs/Mechanical_Cyborg-Captain.cfg:23
+#: Trinity/units/mechs/Mechanical_Cyborg.cfg:23
+#: Trinity/units/mechs/Mechanical_Drill.cfg:20
+#: Trinity/units/mechs/Mechanical_Scout.cfg:20
+#: Trinity/units/mechs/Mechanical_Tank.cfg:21
+#: Trinity/units/primeval/Bronze_Bird.cfg:40
+#: Trinity/units/primeval/Chariot.cfg:39
+#: Trinity/units/primeval/Primeval_Nemesis-Wounded.cfg:31
+#: Trinity/units/primeval/Silver_Bird.cfg:41 Trinity/units/races.cfg:8
+#: Trinity/units/races.cfg:28 Trinity/units/seth/Seth-Beast.cfg:223
+#: Trinity/units/seth/Seth-Beast2.cfg:45 Trinity/units/seth/Seth-Beast3.cfg:31
+#: Trinity/units/seth/Seth-Beast4.cfg:31 Trinity/units/seth/Seth.cfg:24
+#: Trinity/units/tower/Pig.cfg:25 Trinity/units/tower/Pig.cfg:51
+#: Trinity/units/tower/Tower_Coconut.cfg:35
+#: Trinity/units/tower/Tower_Dancer.cfg:21
+#: Trinity/units/tower/Tower_Pineapple.cfg:44
+#: Trinity/units/tower/Tower_Servant.cfg:21
 msgid "..."
 msgstr ""
 
@@ -1528,6 +1538,7 @@ msgstr ""
 #. [scenario]: id=3_H05c
 #. [side]: type=Seth, id=Seth
 #. [side]: type=Seth_Shade, id=Seth_S
+#. [side]: type=Seth_defeated, id=Seth
 #. [unit_type]: id=Seth, race=phantom_egypt
 #: Trinity/scenarios1/3_H05_Encounter.cfg:1293
 #: Trinity/scenarios2/Tower_2_sub2.cfg:284
@@ -1536,7 +1547,8 @@ msgstr ""
 #: Trinity/scenarios2/Tower_Pushback.cfg:221
 #: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:128
 #: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:59
-#: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:110 Trinity/units/Seth.cfg:5
+#: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:110
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:39 Trinity/units/seth/Seth.cfg:5
 msgid "Seth"
 msgstr ""
 
@@ -2198,12 +2210,15 @@ msgid "Ullien-Del"
 msgstr ""
 
 #. [side]: type=EchidnaLow, id=Echidna, race=khthon
+#. [side]: type=Lunar Mantis, id=Echidna
 #. [unit_type]: id=EchidnaLow, race=khthon
 #. [unit_type]: id=EchidnaMid, race=khthon
 #. [unit_type]: id=Tri_Echidna, race=khthon
 #: Trinity/scenarios1/3_K03_Lord.cfg:237
-#: Trinity/scenarios1/3_K04_Storm.cfg:218 Trinity/units/Echidna-Low.cfg:8
-#: Trinity/units/Echidna-Mid.cfg:5 Trinity/units/Echidna.cfg:5
+#: Trinity/scenarios1/3_K04_Storm.cfg:218
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:53
+#: Trinity/units/khthon/Echidna-Low.cfg:8
+#: Trinity/units/khthon/Echidna-Mid.cfg:5 Trinity/units/khthon/Echidna.cfg:5
 msgid "Echidna"
 msgstr ""
 
@@ -2319,6 +2334,8 @@ msgstr ""
 #: Trinity/scenarios1/3_P05_Landing.cfg:59
 #: Trinity/scenarios1/3_P05_Landing.cfg:337
 #: Trinity/scenarios1/3_P05_Landing.cfg:426
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:214
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:231
 msgid "Defeat Enemy Leaders"
 msgstr ""
 
@@ -3797,7 +3814,7 @@ msgstr ""
 #. [objective]: condition=lose
 #. [objective]: condition=win
 #: Trinity/scenarios1/3_P04_Engine.cfg:28
-#: Trinity/scenarios2/F0_Prologue.cfg:36 Trinity/scenarios2/F0_Prologue.cfg:40
+#: Trinity/scenarios2/F0_Prologue.cfg:40 Trinity/scenarios2/F0_Prologue.cfg:44
 #: Trinity/scenarios2/Tower_2_sub1.cfg:32
 #: Trinity/scenarios2/Tower_2_sub1.cfg:736
 #: Trinity/scenarios2/Tower_2_sub2.cfg:32
@@ -4181,7 +4198,8 @@ msgstr ""
 
 #. [side]: type=Kraken, id=Kraken
 #. [unit_type]: id=Kraken, race=monster
-#: Trinity/scenarios1/3_P04p2_Blockage.cfg:98 Trinity/units/Sea-Monsters.cfg:4
+#: Trinity/scenarios1/3_P04p2_Blockage.cfg:98
+#: Trinity/units/monsters/Sea-Monsters.cfg:4
 msgid "Kraken"
 msgstr ""
 
@@ -4549,12 +4567,19 @@ msgstr ""
 #. [part]
 #: Trinity/scenarios2/F0_Prologue.cfg:21
 msgid ""
+"<i>Note:  This Part 2 campaign can be played without having first gone "
+"through Part 1, but it will make more sense if you go through Part 1.</i>"
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/F0_Prologue.cfg:25
+msgid ""
 "Weldyn had fallen to the Khthonic spirits, and the human leadership had been "
 "captured at Elensefar by invaders from the west."
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/F0_Prologue.cfg:25
+#: Trinity/scenarios2/F0_Prologue.cfg:29
 msgid ""
 "Some say it is darkest before the dawn.  Others say it is darkest before the "
 "storm.  Either way, these were desparate times..."
@@ -6046,7 +6071,9 @@ msgid "Meanwhile, back at the tower..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
+#. [message]: speaker=Haldrad
 #: Trinity/scenarios2/Tower_2_sub2.cfg:317
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:265
 msgid "What have we here?"
 msgstr ""
 
@@ -7928,7 +7955,6 @@ msgstr ""
 #: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:334
 #: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:349
 #: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:169
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:147
 msgid "Find and Defeat Enemy Leaders"
 msgstr ""
 
@@ -8931,20 +8957,20 @@ msgstr ""
 
 #. [side]: type=Tri_Azure_Mage, id=Sayers
 #: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:77
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:55
 msgid "Sayers"
 msgstr ""
 
 #. [side]: type=Spearman, id=Fooby
 #: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:151
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:37
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:129
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:66
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:43
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:144
 msgid "Fooby"
 msgstr ""
 
 #. [objective]: condition=lose
 #: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:173
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:151
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:235
 msgid "Death of Bresda or Dardrus"
 msgstr ""
 
@@ -8956,127 +8982,131 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:385
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:394
 msgid "There is something strange about this place."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:389
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:398
 msgid "Yes, I think I hear a steady droning or hum..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:402
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:418
+msgid "We need to set up a staging area for our forces.  Fall back!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:435
 msgid "This looks like it would be a good staging area."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:454
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:489
 msgid ""
 "This door is thick, solid steel!  There is no way we can force our way in..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:459
-msgid ""
-"A voice with no apparent source loudly proclaimed:  <i>Scanning complete!</i>"
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:515
+msgid "<i>Scanning complete!</i>"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:482
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:520
 msgid "Hrmph...  Strange..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:486
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:524
 msgid "It is indeed."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:498
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:536
 msgid ""
 "There's a steel plate on the floor here...  It could be a patch, but ...  It "
 "clicked when I touched it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:526
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:564
 msgid "There appears to be some damage to the hallway here."
 msgstr ""
 
 #. [message]: speaker=Sayers
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:540
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:578
 msgid ""
 "I was told to be expecting you.  Please, drop your weapons and surrender.  "
 "There is something you must see."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:544
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:582
 msgid ""
 "We shall not drop our weapons to surrender!  If you have something to show "
 "us, so be it, but we came here to cleanse our land of you and your master!"
 msgstr ""
 
 #. [message]: speaker=Sayers
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:548
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:586
 msgid ""
 "<i>*Sigh!*</i>  I understand, I once felt that way too...  Very well, we "
 "shall continue to fight."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:563
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:601
 msgid "Now, what was it that you wanted us to surrender to see?"
 msgstr ""
 
 #. [message]: speaker=Sayers
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:567
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:605
 msgid ""
 "You shall find it for yourself ... just head east of here, then north ..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:571
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:609
 msgid "I've no patience for games!  Surely you can say more than that!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:579
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:617
 msgid "He shall say no more.  He is dead."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:620
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:658
 msgid ""
 "This place seems more grand than the halls I've just been wandering...  I "
 "think I'm on the correct path."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:644
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:682
 msgid "A metal plate, not much larger than my hand..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:655
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:693
 msgid "I guess it is used to open that door."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:679
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:717
 msgid ""
 "I suspect we are supposed to head north.  Whether we <i>should</i> go in "
 "there, that is another question."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:683
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:721
 msgid "We should, where else are we going to go?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:740
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:798
 msgid ""
 "The problem with your type is that you are so capricious and "
 "unpredictable...  Just like Echidna.  I have something to correct that.  "
@@ -9084,54 +9114,54 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mech_Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:745
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:803
 msgid "We will drain the red ichor from your soft bodies!"
 msgstr ""
 
 #. [message]: speaker=Mech_Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:749
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:807
 msgid "Indeed...  You have outlived your usefulness."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:753
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:811
 msgid ""
 "We sound nothing like that, Evil One!  We will destroy you and your metal "
 "toys!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:757
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:815
 msgid "Indeed...  This has gone on long enough."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:809
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:896
 msgid "Good riddance!  That was an odd experience."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:830
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:917
 msgid "Well!  It <i>is</i> odd to kill your evil metal twin!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:836
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:923
 msgid "You seemed to enjoy that a little too much, $second_unit.name|!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:840
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:927
 msgid "I swear, it was just the robot!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:869
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:956
 msgid "It's quieting down in here.  We've defeated the guardians!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:873
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:960
 msgid ""
 "Indeed, it does appear that way.  If this chamber is a giant machine in the "
 "service of our enemy, it cannot be for any good benign purpose.  Now that it "
@@ -9139,100 +9169,541 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:877
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:964
 msgid "I agree!"
 msgstr ""
 
 #. [animate_unit]
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:890
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:977
 msgid "Clang!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:905
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:992
 msgid ""
 "You certainly succeeded in doing something.  We should get out of here "
 "before we are trapped!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:909
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:996
 msgid "Right!  Get to the surface, everyone!"
 msgstr ""
 
 #. [scenario]: id=Dark_Planet_3
 #: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:6
-msgid "Dark Planet (III) "
+msgid "Dark Planet (III) - Interlude "
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:24
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:25
 msgid ""
-"This next scenario is not written, but the start-of-scenario save should "
-"work in the next update."
+"The silence in the ancient stone halls after Prince Haldrad's forces had "
+"withdrawn from Seth's lair lasted but a few minutes.  Then a frustrated "
+"groan floated out over the main hall..."
+msgstr ""
+
+#. [message]: speaker=Seth
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:105
+msgid "Aaaarrgh...."
+msgstr ""
+
+#. [message]: speaker=Seth
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:111
+msgid ""
+"That went very poorly.  We'd gotten out of shape over the years, hadn't we?"
+msgstr ""
+
+#. [message]: speaker=Seth
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:127
+msgid ""
+"The enemy is wrecking all that my allies have built over the years...  This "
+"cannot continue...  I sense..."
+msgstr ""
+
+#. [message]: speaker=Seth
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:135
+msgid ""
+"I know you are there, Echidna.  We're both out of options, and we both know "
+"it.  Come here, lurking in the shadows does neither of us any good."
+msgstr ""
+
+#. [message]: speaker=Seth
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:151
+msgid "Being forced to hide in a bug's body must be humiliating..."
+msgstr ""
+
+#. [message]: speaker=Seth
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:157
+msgid ""
+"This would have been so much better if we weren't in such pathetic "
+"conditions, but it will have to do....  Well, come with me, old girl."
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:209
+msgid "We are whole again!  Words cannot do this moment justice!"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:223
+msgid ""
+"We are not strong enough to break the ancient chains, but we can use them to "
+"our advantage; we shall wield the curses and weaknesses of our jailors "
+"descendants against them!"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:228
+msgid "Come, Icy Fear!  Bane of the timid and common!"
+msgstr ""
+
+#. [message]: speaker=Fear
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:245
+msgid "*(whispher)* ... *(hiss!)*"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:250
+msgid "Come, Unstoppable Stupidity!  Crusher of vision and bane of action!"
+msgstr ""
+
+#. [message]: speaker=Stupid
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:267
+msgid "Ghuha! Ghuha!  Ghuha!"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:272
+msgid "Come, Violent Cruelty!  Slayer of trust and father of rage!"
+msgstr ""
+
+#. [message]: speaker=Cruel
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:289
+msgid "I look forward to meeting our hosts, I have much to ... discuss."
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:294
+msgid ""
+"Hahaha, yes, you shall meet our hosts - Let us bring our blessings to the "
+"animals on the surface!  Then you may run rampant upon the blue planet "
+"below... The damned planet that has kept us here for so long!"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:299
+msgid ""
+"This is our first taste of freedom...  For so long, we have been stripped "
+"and degraded...  Now, we bring divine justice, and we shall show no mercy to "
+"our enemies!"
+msgstr ""
+
+#. [message]: speaker=Cruel
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:303
+msgid "I can almost taste their blood..."
+msgstr ""
+
+#. [message]: speaker=Stupid
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:307
+msgid "Ghuhahahaha!"
+msgstr ""
+
+#. [message]: speaker=Fear
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:311
+msgid "*(whispher)*"
+msgstr ""
+
+#. [scenario]: id=Dark_Planet_3b
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:6
+msgid "Dark Planet (III)"
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:24
+msgid ""
+"Haldrad's forces escaped from Seth's lair via a back chamber.  Haldrad was "
+"pleased with how his forces had fought the unfamiliar enemy, but had an "
+"itching feeling that though he had won that battle, the war was not over.  "
+"He hoped Dardrus, and his fiery new companion Bresda, were having success in "
+"their assault..."
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:30
+msgid ""
+"Dardrus, Bresda, and the sailors fled down the metal hallways, well aware "
+"that the rising ambient rumble, as well as the occasional siren or hissing "
+"pipe, was a harbinger of coming destruction.  They reached the entrance and "
+"fled back to the surface, where they were confronted with an odd sight."
+msgstr ""
+
+#. [side]: type=Trinity Avatar, id=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:70
+msgid "The Destroyer"
+msgstr ""
+
+#. [side]: type=Tri_Cyan_Cyborg_Flyer, id=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:162
+msgid "General Tristien"
+msgstr ""
+
+#. [objective]: condition=lose
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:218
+msgid "Death of Haldrad or allied heroes"
 msgstr ""
 
 #. [objectives]
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:158
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:225
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:242
 msgid ""
 "These last scenarios are under construction.  This one is not really written "
 "yet, but you can use this start-of-scenario savefile in future versions when "
 "it is written."
 msgstr ""
 
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:281
+msgid "What's the hold-up?!"
+msgstr ""
+
+#. [message]: speaker=Mech_Captain
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:285
+msgid "There is ... an ... obstacle..."
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:289
+msgid "*(snort!)* I'm more than an obstacle...  I am a <b><i>God</i>!</b>"
+msgstr ""
+
+#. [message]: speaker=Dardrus
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:293
+msgid ""
+"Prince!  We need to leave this place, get back on the Sky Mountain!  Right "
+"now!"
+msgstr ""
+
+#. [message]: speaker=Bresda
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:297
+msgid ""
+"We've destroyed the enemy stronghold, but, ah, there may be consequenceses!"
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:301
+msgid "Fair enough, let's all get to the Sky Mountain!"
+msgstr ""
+
+#. [message]: speaker=Mech_D
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:315
+msgid "<i>Acquiring targets...</i>"
+msgstr ""
+
+#. [message]: speaker=Mech1
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:344
+msgid "Core has been compromised!  Link is down!"
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:348
+msgid ""
+"...  Confirmed!  Link is down!  All units, attack enemy, make way to foreign "
+"mountain!"
+msgstr ""
+
+#. [message]: speaker=Mech_D
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:352
+msgid "Orders confirmed...  Core temperature is rising..."
+msgstr ""
+
+#. [message]: speaker=Mech2
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:381
+msgid "We are the last, the others will not make it!"
+msgstr ""
+
+#. [message]: speaker=Bresda
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:397
+msgid ""
+"May those trapped below rest in peace, I promise I will not let their deaths "
+"go unavenged!"
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:406
+msgid ""
+"Arrgh!  The core is on fire!  Dragon, severe all links!  Stop the enemy from "
+"reaching the foreign mountain!"
+msgstr ""
+
+#. [message]: type=Mech2
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:416
+msgid "System flood...  cannot ..."
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:428
+msgid "General Tristien... I hadn't expected you to still be here."
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:432
+msgid "Lord Seth?  Is that you?"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:436
+msgid "In a sense, yes..."
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:440
+msgid "They've damaged the core, we are unstable...  Can you help?"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:444
+msgid ""
+"We are here to slay the intruders, then take care of the world that has held "
+"us for so long.  We no longer need the core."
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:448
+msgid ""
+"<i>No longer need the core?</i>  We need the core!  You are leaving us to "
+"die!"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:452
+msgid ""
+"If you are going to be such a pest, Tristien, I must thank you for all your "
+"hard work and send you on your way..."
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:456
+msgid "I see."
+msgstr ""
+
+#. [message]: speaker=Mech_D
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:460
+msgid ""
+"Acquiring <i><b>new</b></i> targets...  Broadcast to all units: Attack the "
+"ghost forces!"
+msgstr ""
+
+#. [unit_type]: id=Trinity Ball, race=mechanical
+#: Trinity/units/attic/Ball.cfg:5
+msgid "Spark"
+msgstr ""
+
+#. [unit_type]: id=Trinity Ball, race=mechanical
+#: Trinity/units/attic/Ball.cfg:19
+msgid "A spark of light..."
+msgstr ""
+
+#. [unit_type]: id=Trinity Avatar, race=tri_avatar
+#: Trinity/units/avatar/Ancient_Avatar.cfg:5
+msgid "Ancient Avatar"
+msgstr ""
+
+#. [unit_type]: id=Trinity Avatar, race=tri_avatar
+#: Trinity/units/avatar/Ancient_Avatar.cfg:23
+msgid ""
+"This is a representation of something not of this world.  The entity it "
+"represents uses it to interact with those that are of this world.  Why it "
+"uses this particular form is a mystery, though it probably has something to "
+"do with the first contact.\n"
+"Special Note:  This unit cannot be killed."
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/avatar/Ancient_Avatar.cfg:41
+msgid "Star Blade"
+msgstr ""
+
+#. [attack]: type=arcane
+#: Trinity/units/avatar/Ancient_Avatar.cfg:50
+msgid "remorse"
+msgstr ""
+
+#. [unit_type]: id=Trinity Fear, race=tri_avatar
+#: Trinity/units/avatar/Trinity_Trinity.cfg:9
+msgid "Fear Avatar"
+msgstr ""
+
+#. [leadership]: id=tri_fear
+#: Trinity/units/avatar/Trinity_Trinity.cfg:16
+msgid "fear"
+msgstr ""
+
+#. [leadership]: id=tri_fear
+#: Trinity/units/avatar/Trinity_Trinity.cfg:17
+msgid "female^fear"
+msgstr ""
+
+#. [leadership]: id=tri_fear
+#: Trinity/units/avatar/Trinity_Trinity.cfg:18
+msgid ""
+"This unit strikes fear into the units next to it, making them fight worse.  "
+"It affects all levels."
+msgstr ""
+
+#. [unit_type]: id=Trinity Stupid, race=tri_avatar
+#: Trinity/units/avatar/Trinity_Trinity.cfg:40
+msgid "Stupidity Avatar"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/avatar/Trinity_Trinity.cfg:46
+msgid "cleaver"
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/avatar/Trinity_Trinity.cfg:54
+msgid "confusion"
+msgstr ""
+
+#. [unit_type]: id=Trinity Cruel, race=tri_avatar
+#: Trinity/units/avatar/Trinity_Trinity.cfg:72
+msgid "Cruelty Avatar"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/avatar/Trinity_Trinity.cfg:79
+msgid "dark sword"
+msgstr ""
+
 #. [unit_type]: id=Tri_Azure_Mage, race=human
-#: Trinity/units/Azure_Mage.cfg:4
+#: Trinity/units/blue/Azure_Mage.cfg:4
 msgid "Azure Mage"
 msgstr ""
 
 #. [unit_type]: id=Tri_Azure_Mage, race=human
 #. [unit_type]: id=Tri_Blue_Mage, race=human
 #. [unit_type]: id=Tri_Cyan_Wizard, race=human
-#: Trinity/units/Azure_Mage.cfg:22 Trinity/units/Blue_Mage.cfg:21
-#: Trinity/units/Cyan_Wizard.cfg:34
+#: Trinity/units/blue/Azure_Mage.cfg:22 Trinity/units/blue/Blue_Mage.cfg:21
+#: Trinity/units/blue/Cyan_Wizard.cfg:34
 msgid ""
 "\n"
 "\n"
 msgstr ""
 
 #. [attack]: type=blade
-#: Trinity/units/Azure_Mage.cfg:34 Trinity/units/Cyan_Cyborg-Flyer.cfg:168
-#: Trinity/units/Cyan_Cyborg.cfg:77 Trinity/units/Cyan_Wizard.cfg:82
+#: Trinity/units/blue/Azure_Mage.cfg:34
+#: Trinity/units/blue/Cyan_Cyborg-Flyer.cfg:168
+#: Trinity/units/blue/Cyan_Cyborg.cfg:77 Trinity/units/blue/Cyan_Wizard.cfg:82
 msgid "sword"
 msgstr ""
 
 #. [attack]: type=fire
-#: Trinity/units/Azure_Mage.cfg:43 Trinity/units/Blue_Mage.cfg:42
-#: Trinity/units/Cyan_Cyborg-Flyer.cfg:177 Trinity/units/Cyan_Cyborg.cfg:86
-#: Trinity/units/Cyan_Wizard.cfg:91 Trinity/utils/amla.cfg:241
+#: Trinity/units/blue/Azure_Mage.cfg:43 Trinity/units/blue/Blue_Mage.cfg:42
+#: Trinity/units/blue/Cyan_Cyborg-Flyer.cfg:177
+#: Trinity/units/blue/Cyan_Cyborg.cfg:86 Trinity/units/blue/Cyan_Wizard.cfg:91
+#: Trinity/utils/amla.cfg:241
 msgid "fireball"
 msgstr ""
 
 #. [female]
-#: Trinity/units/Azure_Mage.cfg:97 Trinity/units/Blue_Mage.cfg:96
-#: Trinity/units/Cyan_Wizard.cfg:153
+#: Trinity/units/blue/Azure_Mage.cfg:97 Trinity/units/blue/Blue_Mage.cfg:96
+#: Trinity/units/blue/Cyan_Wizard.cfg:153
 msgid "female^Red Mage"
 msgstr ""
 
-#. [unit_type]: id=Trinity Ball, race=mechanical
-#: Trinity/units/Ball.cfg:5
-msgid "Spark"
+#. [unit_type]: id=Blue_Dragon, race=monster
+#: Trinity/units/blue/Blue_Dragon.cfg:4
+msgid "Blue Dragon"
 msgstr ""
 
-#. [unit_type]: id=Trinity Ball, race=mechanical
-#: Trinity/units/Ball.cfg:19
-msgid "A spark of light..."
+#. [unit_type]: id=Blue_Dragon, race=monster
+#: Trinity/units/blue/Blue_Dragon.cfg:25
+msgid ""
+"The blue dragon is not quite like any dragon described in the known myths "
+"and legends.  It has neither wings nor flaming breath, but it is a powerful "
+"behemoth with heavy armor scales.  This particular dragon seems to be "
+"enslaved, for it is bound with chains, and these chains prevent the beast "
+"from moving with the full speed it is surely capable."
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/blue/Blue_Dragon.cfg:32
+msgid "chains"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Trinity/units/blue/Blue_Dragon.cfg:44 Trinity/units/blue/Blue_Drake.cfg:32
+msgid "horns"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/blue/Blue_Dragon.cfg:56 Trinity/units/blue/Blue_Drake.cfg:44
+#: Trinity/units/monsters/Zombie_Dragon.cfg:40
+#: Trinity/units/seth/Seth-Beast.cfg:239 Trinity/units/seth/Seth-Beast2.cfg:61
+#: Trinity/units/seth/Seth-Beast3.cfg:50 Trinity/units/seth/Seth-Beast4.cfg:50
+msgid "claws"
+msgstr ""
+
+#. [unit_type]: id=Blue_Drake, race=monster
+#: Trinity/units/blue/Blue_Drake.cfg:4
+msgid "Blue Drake"
+msgstr ""
+
+#. [unit_type]: id=Blue_Drake, race=monster
+#: Trinity/units/blue/Blue_Drake.cfg:25
+msgid "The blue drake..."
+msgstr ""
+
+#. [unit_type]: id=Tri_Blue_Mage, race=human
+#: Trinity/units/blue/Blue_Mage.cfg:4
+msgid "Blue Mage"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/blue/Blue_Mage.cfg:33
+#: Trinity/units/mechs/Mechanical_Cyborg.cfg:27
+msgid "dagger"
+msgstr ""
+
+#. [unit_type]: id=Tri_Cyan_Cyborg, race=human
+#. [unit_type]: id=Tri_Cyan_Cyborg_Flyer, race=human
+#: Trinity/units/blue/Cyan_Cyborg-Flyer.cfg:4
+#: Trinity/units/blue/Cyan_Cyborg.cfg:4
+msgid "Cyan Cyborg"
+msgstr ""
+
+#. [unit_type]: id=Tri_Cyan_Cyborg, race=human
+#. [unit_type]: id=Tri_Cyan_Cyborg_Flyer, race=human
+#: Trinity/units/blue/Cyan_Cyborg-Flyer.cfg:21
+#: Trinity/units/blue/Cyan_Cyborg.cfg:21
+msgid ""
+"The Cyan Wizard was odd to begin with, but something has changed - he seems "
+"a little more intense these days...\n"
+"\n"
+msgstr ""
+
+#. [unit_type]: id=Tri_Flying_Platform, race=mechanical
+#: Trinity/units/blue/Cyan_Flyer.cfg:4
+msgid "Flying Platform"
+msgstr ""
+
+#. [unit_type]: id=Tri_Cyan_Wizard, race=human
+#: Trinity/units/blue/Cyan_Wizard.cfg:4
+msgid "Cyan Wizard"
 msgstr ""
 
 #. [unit_type]: id=Battle Queen, race=human
 #. [unit_type]: id=Battle Queen_, race=human
-#: Trinity/units/Battle_Queen.cfg:4 Trinity/units/Battle_Queen_.cfg:4
+#: Trinity/units/humans/Battle_Queen.cfg:4
+#: Trinity/units/humans/Battle_Queen_.cfg:4
 msgid "female^Battle Queen"
 msgstr ""
 
 #. [unit_type]: id=Battle Queen, race=human
 #. [unit_type]: id=Battle Queen_, race=human
-#: Trinity/units/Battle_Queen.cfg:34 Trinity/units/Battle_Queen_.cfg:34
+#: Trinity/units/humans/Battle_Queen.cfg:34
+#: Trinity/units/humans/Battle_Queen_.cfg:34
 msgid ""
 "The daughter of a landowner from the east, the young queen was sold into "
 "marriage to a prince 30 years her senior in order to ensure an important "
@@ -9245,187 +9716,507 @@ msgid ""
 "was secure."
 msgstr ""
 
-#. [unit_type]: id=Blue_Dragon, race=monster
-#: Trinity/units/Blue_Dragon.cfg:4
-msgid "Blue Dragon"
+#. [unit_type]: id=Harridan, race=south-seas_human
+#: Trinity/units/humans/Bresda.cfg:11
+msgid "female^Harridan"
 msgstr ""
 
-#. [unit_type]: id=Blue_Dragon, race=monster
-#: Trinity/units/Blue_Dragon.cfg:25
-msgid ""
-"The blue dragon is not quite like any dragon described in the known myths "
-"and legends.  It has neither wings nor flaming breath, but it is a powerful "
-"behemoth with heavy armor scales.  This particular dragon seems to be "
-"enslaved, for it is bound with chains, and these chains prevent the beast "
-"from moving with the full speed it is surely capable."
+#. [attack]: type=blade
+#: Trinity/units/humans/Bresda.cfg:34 Trinity/units/humans/Bresda.cfg:120
+#: Trinity/units/humans/Bresda.cfg:217
+msgid "pick"
 msgstr ""
 
-#. [attack]: type=impact
-#: Trinity/units/Blue_Dragon.cfg:32
-msgid "chains"
+#. [unit_type]: id=Termagant, race=south-seas_human
+#: Trinity/units/humans/Bresda.cfg:83
+msgid "female^Termagant"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Trinity/units/Blue_Dragon.cfg:44 Trinity/units/Blue_Drake.cfg:32
-msgid "horns"
+#: Trinity/units/humans/Bresda.cfg:129 Trinity/units/humans/Bresda.cfg:226
+msgid "dart"
 msgstr ""
 
-#. [attack]: type=blade
-#: Trinity/units/Blue_Dragon.cfg:56 Trinity/units/Blue_Drake.cfg:44
-#: Trinity/units/Seth-Beast.cfg:239 Trinity/units/Seth-Beast2.cfg:61
-#: Trinity/units/Seth-Beast3.cfg:50 Trinity/units/Seth-Beast4.cfg:50
-#: Trinity/units/Zombie_Dragon.cfg:40
-msgid "claws"
+#. [unit_type]: id=Virago, race=south-seas_human
+#: Trinity/units/humans/Bresda.cfg:178
+msgid "female^Virago"
 msgstr ""
 
-#. [unit_type]: id=Blue_Drake, race=monster
-#: Trinity/units/Blue_Drake.cfg:4
-msgid "Blue Drake"
-msgstr ""
-
-#. [unit_type]: id=Blue_Drake, race=monster
-#: Trinity/units/Blue_Drake.cfg:25
-msgid "The blue drake..."
-msgstr ""
-
-#. [unit_type]: id=Tri_Blue_Mage, race=human
-#: Trinity/units/Blue_Mage.cfg:4
-msgid "Blue Mage"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Blue_Mage.cfg:33 Trinity/units/Mechanical_Cyborg.cfg:27
-msgid "dagger"
-msgstr ""
-
-#. [unit_type]: id=Khthon Heroine, race=khthon
 #. [unit_type]: id=Primevalist Heroine, race=primevalist_human
-#. [unit_type]: id=Tri_Mech_Bresda, race=mechanical
-#: Trinity/units/Bresda-Khthon.cfg:5 Trinity/units/Bresda-Mech.cfg:11
-#: Trinity/units/Bresda.cfg:277
+#. [unit_type]: id=Tri_Mech_Bresda, race=tri_mech
+#: Trinity/units/humans/Bresda.cfg:277 Trinity/units/mechs/Bresda-Mech.cfg:11
 msgid "female^Heroine"
 msgstr ""
 
-#. [unit_type]: id=Khthon Heroine, race=khthon
 #. [unit_type]: id=Primevalist Heroine, race=primevalist_human
-#. [unit_type]: id=Tri_Mech_Bresda, race=mechanical
-#: Trinity/units/Bresda-Khthon.cfg:28 Trinity/units/Bresda-Mech.cfg:33
-#: Trinity/units/Bresda.cfg:301
+#. [unit_type]: id=Tri_Mech_Bresda, race=tri_mech
+#: Trinity/units/humans/Bresda.cfg:300 Trinity/units/mechs/Bresda-Mech.cfg:33
 msgid ""
 "A leader of the sailors from the south has become a lieutenant of the "
 "Primeval Nemesis.  Like the other humans in the service of the Primeval, she "
 "has been given a tattoo to ward off the effects of the Khthon disease."
 msgstr ""
 
-#. [unit_type]: id=Harridan, race=south-seas_human
-#: Trinity/units/Bresda.cfg:11
-msgid "female^Harridan"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Bresda.cfg:34 Trinity/units/Bresda.cfg:120
-#: Trinity/units/Bresda.cfg:217
-msgid "pick"
-msgstr ""
-
-#. [unit_type]: id=Termagant, race=south-seas_human
-#: Trinity/units/Bresda.cfg:83
-msgid "female^Termagant"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Trinity/units/Bresda.cfg:129 Trinity/units/Bresda.cfg:226
-msgid "dart"
-msgstr ""
-
-#. [unit_type]: id=Virago, race=south-seas_human
-#: Trinity/units/Bresda.cfg:178
-msgid "female^Virago"
-msgstr ""
-
-#. [unit_type]: id=Tri_Bronze_Bird, race=mechanical
-#: Trinity/units/Bronze_Bird.cfg:4
-msgid "Bronze Bird"
-msgstr ""
-
 #. [unit_type]: id=Trinity Cannon, race=human
-#: Trinity/units/Cannon.cfg:5
+#: Trinity/units/humans/Cannon.cfg:5
 msgid "Rocket Mortar"
 msgstr ""
 
-#. [unit_type]: id=Primeval Chariot, race=primeval
-#: Trinity/units/Chariot.cfg:4
-msgid "Chariot"
+#. [unit_type]: id=Haldrad Commander, race=human
+#. [variation]: id=Haldrad Commander, race=human
+#: Trinity/units/humans/Haldrad-Commander.cfg:4
+#: Trinity/units/humans/Haldrad-Commander.cfg:150
+msgid "Commander"
 msgstr ""
 
-#. [unit_type]: id=Tri_Cyan_Cyborg, race=human
-#. [unit_type]: id=Tri_Cyan_Cyborg_Flyer, race=human
-#: Trinity/units/Cyan_Cyborg-Flyer.cfg:4 Trinity/units/Cyan_Cyborg.cfg:4
-msgid "Cyan Cyborg"
-msgstr ""
-
-#. [unit_type]: id=Tri_Cyan_Cyborg, race=human
-#. [unit_type]: id=Tri_Cyan_Cyborg_Flyer, race=human
-#: Trinity/units/Cyan_Cyborg-Flyer.cfg:21 Trinity/units/Cyan_Cyborg.cfg:21
+#. [unit_type]: id=Haldrad Commander, race=human
+#. [variation]: id=Haldrad Commander, race=human
+#: Trinity/units/humans/Haldrad-Commander.cfg:29
+#: Trinity/units/humans/Haldrad-Commander.cfg:173
 msgid ""
-"The Cyan Wizard was odd to begin with, but something has changed - he seems "
-"a little more intense these days...\n"
-"\n"
+"The rank of Commander is held by those who lead battle groups into combat. "
+"Possessing leadership skills, they give lower-level units in adjacent hexes "
+"improved performance in combat. Commanders are best skilled with the sword, "
+"although they also carry a bow to use when necessary. If the Commander is "
+"lost, so is the battle."
 msgstr ""
 
-#. [unit_type]: id=Tri_Flying_Platform, race=mechanical
-#: Trinity/units/Cyan_Flyer.cfg:4
-msgid "Flying Platform"
+#. [unit_type]: id=Haldrad Fighter, race=human
+#. [variation]: id=Haldrad Fighter, race=human
+#: Trinity/units/humans/Haldrad-Fighter.cfg:4
+#: Trinity/units/humans/Haldrad-Fighter.cfg:35
+msgid "Fighter"
 msgstr ""
 
-#. [unit_type]: id=Tri_Cyan_Wizard, race=human
-#: Trinity/units/Cyan_Wizard.cfg:4
-msgid "Cyan Wizard"
+#. [unit_type]: id=Haldrad Fighter, race=human
+#: Trinity/units/humans/Haldrad-Fighter.cfg:20
+msgid ""
+"Young and brash, Fighters attack with a sword, and are vulnerable to more "
+"seasoned enemies. However they have the potential to become great warriors "
+"one day."
+msgstr ""
+
+#. [variation]: id=Haldrad Fighter, race=human
+#: Trinity/units/humans/Haldrad-Fighter.cfg:48
+msgid ""
+"Young and brash, Fighters fight with a sword, and are vulnerable to attack "
+"from enemies. However they have the potential to become great warriors one "
+"day."
+msgstr ""
+
+#. [unit_type]: id=Haldrad Lord, race=human
+#. [variation]: id=Haldrad Lord, race=human
+#: Trinity/units/humans/Haldrad-Lord.cfg:4
+#: Trinity/units/humans/Haldrad-Lord.cfg:178
+msgid "Lord"
+msgstr ""
+
+#. [unit_type]: id=Haldrad Lord, race=human
+#. [variation]: id=Haldrad Lord, race=human
+#: Trinity/units/humans/Haldrad-Lord.cfg:31
+#: Trinity/units/humans/Haldrad-Lord.cfg:202
+msgid ""
+"The noble leaders of many troops, Lords are especially strong in melee "
+"combat, and also possess skill with the bow. Like Commanders, Lords possess "
+"leadership skills, and improve the fighting ability of all adjacent lower-"
+"level units."
+msgstr ""
+
+#. [unit_type]: id=SouthSeas Pirate, race=south-seas_human
+#: Trinity/units/humans/Ponce.cfg:11
+msgid "Pirate"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/humans/Ponce.cfg:57 Trinity/units/humans/Ponce.cfg:152
+#: Trinity/units/humans/Ponce.cfg:262
+msgid "cutlass"
+msgstr ""
+
+#. [unit_type]: id=SouthSeas Corsair, race=south-seas_human
+#: Trinity/units/humans/Ponce.cfg:106
+msgid "Corsair"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/humans/Ponce.cfg:164
+msgid "quoit"
+msgstr ""
+
+#. [unit_type]: id=SouthSeas Seadog, race=south-seas_human
+#: Trinity/units/humans/Ponce.cfg:213
+msgid "Seadog"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/humans/Ponce.cfg:274
+#: Trinity/units/primeval/Primeval_Nemesis-Hi.cfg:71
+#: Trinity/units/primeval/Primeval_Nemesis-Mid.cfg:66
+msgid "chakram"
+msgstr ""
+
+#. [unit_type]: id=Trinity Wagon, race=human
+#: Trinity/units/humans/Wagon.cfg:5
+msgid "Paddy Wagon"
+msgstr ""
+
+#. [unit_type]: id=Trinity Wagon, race=human
+#: Trinity/units/humans/Wagon.cfg:22
+msgid ""
+"These wagons are small, mobile prisons used for transport of prisoners.  The "
+"driver cannot drop the reins to use anything more complicated than a thrown "
+"rock, but is armored and has some resistance to being displaced.  The wheels "
+"of the wagon cannot traverse deep mud of swamps."
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/humans/Wagon.cfg:31 Trinity/units/mechs/Dardrus-Mech.cfg:131
+#: Trinity/units/primeval/Dardrus.cfg:519
+msgid "rock"
+msgstr ""
+
+#. [attack]: type=fire
+#: Trinity/units/khthon/Echidna-Low.cfg:45
+#: Trinity/units/khthon/Echidna-Mid.cfg:42
+msgid "fire"
+msgstr ""
+
+#. [unit_type]: id=Tri_Echidna, race=khthon
+#: Trinity/units/khthon/Echidna.cfg:23
+msgid ""
+"Echidna is said to be the mother of all Khthon monsters, though whether the "
+"term 'mother' has any meaning when applied to the Khthon is unknown. In any "
+"case, she is certainly one of their leaders and a very powerful spirit. The "
+"identity of her victim has allowed her a greater understanding of the "
+"thoughts and weaknesses of the more modern races."
+msgstr ""
+
+#. [attack]: type=fire
+#: Trinity/units/khthon/Echidna.cfg:60
+msgid "psyche"
+msgstr ""
+
+#. [unit_type]: id=Echidna_Queen, race=khthon
+#: Trinity/units/khthon/Echidna_Queen.cfg:4
+msgid "Echidna female^Queen"
+msgstr ""
+
+#. [unit_type]: id=Echidna_Queen, race=khthon
+#: Trinity/units/khthon/Echidna_Queen.cfg:53
+msgid ""
+"This is not Queen Caldera, it is a Khthon daemon that wears her frame.  But "
+"the skills and motor skills of the Queen live on, even if her conciousness "
+"and soul do not."
+msgstr ""
+
+#. [unit_type]: id=Keldan, race=khthon
+#: Trinity/units/khthon/Keldan.cfg:4
+msgid "Khthon Marshal"
+msgstr ""
+
+#. [unit_type]: id=Keldan, race=khthon
+#: Trinity/units/khthon/Keldan.cfg:30
+msgid ""
+"The longevity and natural intelligence of elves make them apt for military "
+"matters, even when they have become host to the Khthon."
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/khthon/Seaman-Khthon.cfg:21
+msgid "oar"
+msgstr ""
+
+#. [unit_type]: id=Lunar Bug, race=monster
+#: Trinity/units/lunar/Lunar-Bug.cfg:5
+msgid "Lunar Bug"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/lunar/Lunar-Bug.cfg:38
+#: Trinity/units/lunar/Lunar-Mantis.cfg:38
+#: Trinity/units/lunar/Lunar-Worm.cfg:38 Trinity/units/seth/Seth-Beast.cfg:227
+#: Trinity/units/seth/Seth-Beast2.cfg:49 Trinity/units/seth/Seth-Beast3.cfg:38
+#: Trinity/units/seth/Seth-Beast4.cfg:38
+msgid "bite"
+msgstr ""
+
+#. [unit_type]: id=Lunar Crab, race=monster
+#: Trinity/units/lunar/Lunar-Crab.cfg:5
+msgid "Lunar Crab"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/lunar/Lunar-Crab.cfg:38 Trinity/units/lunar/Lunar-Crab.cfg:76
+#: Trinity/units/lunar/Lunar-Mantis.cfg:50
+msgid "claw"
+msgstr ""
+
+#. [unit_type]: id=Lunar Mantis, race=monster
+#: Trinity/units/lunar/Lunar-Mantis.cfg:5
+msgid "Lunar Mantis"
+msgstr ""
+
+#. [unit_type]: id=Lunar Worm, race=monster
+#: Trinity/units/lunar/Lunar-Worm.cfg:5
+msgid "Lunar Worm"
 msgstr ""
 
 #. [unit_type]: id=Dardrus2b, race=primeval
-#. [unit_type]: id=Tri_Mech_Dardrus, race=mechanical
-#: Trinity/units/Dardrus-Mech.cfg:5 Trinity/units/Dardrus.cfg:387
+#. [unit_type]: id=Tri_Mech_Dardrus, race=tri_mech
+#: Trinity/units/mechs/Dardrus-Mech.cfg:5
+#: Trinity/units/primeval/Dardrus.cfg:393
 msgid "Vanguard"
 msgstr ""
 
 #. [advancement]: id=bmr_amla_defense
-#: Trinity/units/Dardrus-Mech.cfg:24 Trinity/units/Dardrus.cfg:406
+#: Trinity/units/mechs/Dardrus-Mech.cfg:24
+#: Trinity/units/primeval/Dardrus.cfg:412
 msgid "Max HP bonus +2, Max XP +30%, Arcane Resistance +10"
 msgstr ""
 
 #. [advancement]: id=bmr_amla_mace
-#: Trinity/units/Dardrus-Mech.cfg:55 Trinity/units/Dardrus.cfg:437
+#: Trinity/units/mechs/Dardrus-Mech.cfg:55
+#: Trinity/units/primeval/Dardrus.cfg:443
 msgid "Max HP bonus +2, Max XP +20%, Club Attack +2"
 msgstr ""
 
 #. [advancement]: id=bmr_amla_sling
-#: Trinity/units/Dardrus-Mech.cfg:84 Trinity/units/Dardrus.cfg:466
+#: Trinity/units/mechs/Dardrus-Mech.cfg:84
+#: Trinity/units/primeval/Dardrus.cfg:472
 msgid "Max HP bonus +2, Max XP +20%, Rock Attack +2"
 msgstr ""
 
 #. [unit_type]: id=Dardrus2b, race=primeval
-#. [unit_type]: id=Tri_Mech_Dardrus, race=mechanical
-#: Trinity/units/Dardrus-Mech.cfg:111 Trinity/units/Dardrus.cfg:493
+#. [unit_type]: id=Tri_Mech_Dardrus, race=tri_mech
+#: Trinity/units/mechs/Dardrus-Mech.cfg:111
+#: Trinity/units/primeval/Dardrus.cfg:499
 msgid ""
 "The Vanguard operates far from the rest of the Primeval forces, and must use "
 "whatever supplies are available.\n"
 "Special Note:"
 msgstr ""
 
+#. [unit_type]: id=Tri_Mech_Android, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Android.cfg:5
+msgid "Android"
+msgstr ""
+
 #. [attack]: type=impact
-#: Trinity/units/Dardrus-Mech.cfg:131 Trinity/units/Dardrus.cfg:513
-#: Trinity/units/Wagon.cfg:31
-msgid "rock"
+#: Trinity/units/mechs/Mechanical_Android.cfg:26
+msgid "gripper"
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/mechs/Mechanical_Android.cfg:38
+msgid "shockwave"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Android_Leader, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Android_General.cfg:5
+msgid "Android Leader"
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/mechs/Mechanical_Android_General.cfg:26
+msgid "clamp"
+msgstr ""
+
+#. [attack]: type=fire
+#: Trinity/units/mechs/Mechanical_Android_General.cfg:39
+msgid "flame-thrower"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Cyborg, race=undead
+#. [unit_type]: id=Tri_Mech_Cyborg_Captain, race=undead
+#: Trinity/units/mechs/Mechanical_Cyborg-Captain.cfg:5
+#: Trinity/units/mechs/Mechanical_Cyborg.cfg:5
+msgid "Cyborg"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/mechs/Mechanical_Cyborg-Captain.cfg:36
+msgid "falchion"
+msgstr ""
+
+#. [attack]: type=fire
+#: Trinity/units/mechs/Mechanical_Cyborg-Captain.cfg:49
+#: Trinity/units/mechs/Mechanical_Cyborg.cfg:40
+#: Trinity/units/mechs/Mechanical_Scout.cfg:24
+msgid "spark"
+msgstr ""
+
+#. [female]
+#: Trinity/units/mechs/Mechanical_Cyborg.cfg:61
+msgid "female^Cyborg"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Defender, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Defender.cfg:4
+msgid "Defender"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Defender, race=tri_mech
+#. [unit_type]: id=Tri_Mech_Drone, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Defender.cfg:48
+#: Trinity/units/mechs/Mechanical_Drone.cfg:48
+msgid ""
+"The drones of this mechanical race do all maintenance and construction "
+"tasks.  They also attack intruders."
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:102
+#: Trinity/units/monsters/Zombie_Dragon.cfg:28
+msgid "jaw"
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:117
+msgid "ram"
+msgstr ""
+
+#. [attack]: type=pierce
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:133
+msgid "guns"
+msgstr ""
+
+#. [attack]: type=fire
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:148
+msgid "point-defense"
+msgstr ""
+
+#. [unit_type]: id=Mech_Seth Dragon, race=mechanical
+#. [unit_type]: id=Mech_Seth Dragon2
+#. [unit_type]: id=Mechanical Dragon Base, race=mechanical
+#. [unit_type]: id=Mechanical Dragon Broken, race=mechanical
+#. [unit_type]: id=Mechanical Dragon NoGun, race=mechanical
+#. [unit_type]: id=Mechanical Dragon NoJaw, race=mechanical
+#. [unit_type]: id=Mechanical Dragon, race=mechanical
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:356
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:476
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:495
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:647
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:720
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:793
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:864
+msgid "Mechanical Dragon"
+msgstr ""
+
+#. [dummy]: id=radioactive
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:380
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:882
+msgid "radioactive"
+msgstr ""
+
+#. [dummy]: id=radioactive
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:381
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:883
+msgid ""
+"Units adjacent to this unit will be poisoned at the start of their turn."
+msgstr ""
+
+#. [unit_type]: id=Mech_Seth Dragon, race=mechanical
+#. [unit_type]: id=Mechanical Dragon Base, race=mechanical
+#. [unit_type]: id=Mechanical Dragon Broken, race=mechanical
+#. [unit_type]: id=Mechanical Dragon NoGun, race=mechanical
+#. [unit_type]: id=Mechanical Dragon NoJaw, race=mechanical
+#. [unit_type]: id=Mechanical Dragon, race=mechanical
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:395
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:529
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:671
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:744
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:817
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:895
+msgid ""
+"It's not clear whether this mechanical dragon is really a dragon, but that "
+"is the most fitting description at hand."
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Drill, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Drill.cfg:5
+msgid "Miner Robot"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/mechs/Mechanical_Drill.cfg:24
+msgid "drill"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Drone, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Drone.cfg:4
+msgid "Drone"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Mine, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Mine.cfg:4
+msgid "Mine"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Mine, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Mine.cfg:40
+msgid ""
+"The sentries of this mechanical race have but one purpose, and that is to "
+"destroy all intruders."
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Scout, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Scout.cfg:5
+msgid "Scout Robot"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Sentinel, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Sentinel.cfg:4
+msgid "Sentinel"
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Sentinel, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Sentinel.cfg:48
+msgid ""
+"The sentinels of this mechanical race are upgraded drones, fitted for combat."
+msgstr ""
+
+#. [unit_type]: id=Tri_Mech_Tank, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Tank.cfg:4
+msgid "Tank"
+msgstr ""
+
+#. [unit_type]: id=Kraken, race=monster
+#: Trinity/units/monsters/Sea-Monsters.cfg:26
+msgid ""
+"The Kraken is a giant tentacled beast, 'Kraken' being more of a description "
+"than a species name.  This particular Kraken resembles a very large nautilus."
+msgstr ""
+
+#. [unit_type]: id=Zombie Dragon, race=undead
+#: Trinity/units/monsters/Zombie_Dragon.cfg:4
+msgid "Zombie Dragon"
+msgstr ""
+
+#. [unit_type]: id=Zombie Dragon, race=undead
+#: Trinity/units/monsters/Zombie_Dragon.cfg:24
+msgid ""
+"Long ago one of the mightiest living creatures, the feared Dragon has become "
+"a sick mockery of what it once was.  Abomination though it may be, this "
+"thing is still quite dangerous."
+msgstr ""
+
+#. [unit_type]: id=Tri_Bronze_Bird, race=mechanical
+#: Trinity/units/primeval/Bronze_Bird.cfg:4
+msgid "Bronze Bird"
+msgstr ""
+
+#. [unit_type]: id=Primeval Chariot, race=primeval
+#: Trinity/units/primeval/Chariot.cfg:4
+msgid "Chariot"
 msgstr ""
 
 #. [unit_type]: id=Dardrus, race=primeval
-#: Trinity/units/Dardrus.cfg:5
+#: Trinity/units/primeval/Dardrus.cfg:5
 msgid "Spy"
 msgstr ""
 
 #. [unit_type]: id=Dardrus, race=primeval
-#: Trinity/units/Dardrus.cfg:21
+#: Trinity/units/primeval/Dardrus.cfg:21
 msgid ""
 "The Spies are separate from the main forces and have to blend in with the "
 "enemy, so they adopt some of the enemy's habits and tactics.\n"
@@ -9433,37 +10224,37 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=Dardrus2a, race=primeval
-#: Trinity/units/Dardrus.cfg:78
+#: Trinity/units/primeval/Dardrus.cfg:78
 msgid "Observer"
 msgstr ""
 
 #. [advancement]: id=bmr_amla_defense
-#: Trinity/units/Dardrus.cfg:97
+#: Trinity/units/primeval/Dardrus.cfg:97
 msgid "Max HP bonus +2, Max XP +30%, Fire/Cold Resistance +10"
 msgstr ""
 
 #. [advancement]: id=bmr_amla_missile
-#: Trinity/units/Dardrus.cfg:129
+#: Trinity/units/primeval/Dardrus.cfg:129
 msgid "Max HP bonus +2, Max XP +20%, Missile Attack +2"
 msgstr ""
 
 #. [advancement]: id=bmr_amla_arcane_missile
-#: Trinity/units/Dardrus.cfg:165
+#: Trinity/units/primeval/Dardrus.cfg:165
 msgid "Max HP bonus +2, Max XP +20%, Arcane Attack +3"
 msgstr ""
 
 #. [advancement]: id=bmr_amla_arcane
-#: Trinity/units/Dardrus.cfg:195
+#: Trinity/units/primeval/Dardrus.cfg:195
 msgid "Max HP bonus +1, Max XP +30%, Arcane Missile (New Attack)"
 msgstr ""
 
 #. [effect]: type=arcane
-#: Trinity/units/Dardrus.cfg:217 Trinity/utils/amla.cfg:257
+#: Trinity/units/primeval/Dardrus.cfg:217 Trinity/utils/amla.cfg:257
 msgid "arcane missile"
 msgstr ""
 
 #. [unit_type]: id=Dardrus2a, race=primeval
-#: Trinity/units/Dardrus.cfg:266
+#: Trinity/units/primeval/Dardrus.cfg:266
 msgid ""
 "The Observers study the ways of the enemy, and have begun to explore foreign "
 "methods of attack.  They have this freedom while they are on their own.\n"
@@ -9476,385 +10267,13 @@ msgid ""
 "Special Note:"
 msgstr ""
 
-#. [attack]: type=fire
-#: Trinity/units/Echidna-Low.cfg:45 Trinity/units/Echidna-Mid.cfg:42
-msgid "fire"
-msgstr ""
-
-#. [unit_type]: id=Tri_Echidna, race=khthon
-#: Trinity/units/Echidna.cfg:23
-msgid ""
-"Echidna is said to be the mother of all Khthon monsters, though whether the "
-"term 'mother' has any meaning when applied to the Khthon is unknown. In any "
-"case, she is certainly one of their leaders and a very powerful spirit. The "
-"identity of her victim has allowed her a greater understanding of the "
-"thoughts and weaknesses of the more modern races."
-msgstr ""
-
-#. [attack]: type=fire
-#: Trinity/units/Echidna.cfg:60
-msgid "psyche"
-msgstr ""
-
-#. [unit_type]: id=Echidna_Queen, race=khthon
-#: Trinity/units/Echidna_Queen.cfg:4
-msgid "Echidna female^Queen"
-msgstr ""
-
-#. [unit_type]: id=Echidna_Queen, race=khthon
-#: Trinity/units/Echidna_Queen.cfg:53
-msgid ""
-"This is not Queen Caldera, it is a Khthon daemon that wears her frame.  But "
-"the skills and motor skills of the Queen live on, even if her conciousness "
-"and soul do not."
-msgstr ""
-
-#. [unit_type]: id=Haldrad Commander, race=human
-#. [variation]: id=Haldrad Commander, race=human
-#: Trinity/units/Haldrad-Commander.cfg:4
-#: Trinity/units/Haldrad-Commander.cfg:150
-msgid "Commander"
-msgstr ""
-
-#. [unit_type]: id=Haldrad Commander, race=human
-#. [variation]: id=Haldrad Commander, race=human
-#: Trinity/units/Haldrad-Commander.cfg:29
-#: Trinity/units/Haldrad-Commander.cfg:173
-msgid ""
-"The rank of Commander is held by those who lead battle groups into combat. "
-"Possessing leadership skills, they give lower-level units in adjacent hexes "
-"improved performance in combat. Commanders are best skilled with the sword, "
-"although they also carry a bow to use when necessary. If the Commander is "
-"lost, so is the battle."
-msgstr ""
-
-#. [unit_type]: id=Haldrad Fighter, race=human
-#. [variation]: id=Haldrad Fighter, race=human
-#: Trinity/units/Haldrad-Fighter.cfg:4 Trinity/units/Haldrad-Fighter.cfg:35
-msgid "Fighter"
-msgstr ""
-
-#. [unit_type]: id=Haldrad Fighter, race=human
-#: Trinity/units/Haldrad-Fighter.cfg:20
-msgid ""
-"Young and brash, Fighters attack with a sword, and are vulnerable to more "
-"seasoned enemies. However they have the potential to become great warriors "
-"one day."
-msgstr ""
-
-#. [variation]: id=Haldrad Fighter, race=human
-#: Trinity/units/Haldrad-Fighter.cfg:48
-msgid ""
-"Young and brash, Fighters fight with a sword, and are vulnerable to attack "
-"from enemies. However they have the potential to become great warriors one "
-"day."
-msgstr ""
-
-#. [unit_type]: id=Haldrad Lord, race=human
-#. [variation]: id=Haldrad Lord, race=human
-#: Trinity/units/Haldrad-Lord.cfg:4 Trinity/units/Haldrad-Lord.cfg:178
-msgid "Lord"
-msgstr ""
-
-#. [unit_type]: id=Haldrad Lord, race=human
-#. [variation]: id=Haldrad Lord, race=human
-#: Trinity/units/Haldrad-Lord.cfg:31 Trinity/units/Haldrad-Lord.cfg:202
-msgid ""
-"The noble leaders of many troops, Lords are especially strong in melee "
-"combat, and also possess skill with the bow. Like Commanders, Lords possess "
-"leadership skills, and improve the fighting ability of all adjacent lower-"
-"level units."
-msgstr ""
-
-#. [unit_type]: id=Hostage, race=primevalist_human
-#: Trinity/units/Hostage.cfg:5
-msgid "female^Hostage"
-msgstr ""
-
-#. [unit_type]: id=Keldan, race=khthon
-#: Trinity/units/Keldan.cfg:4
-msgid "Khthon Marshal"
-msgstr ""
-
-#. [unit_type]: id=Keldan, race=khthon
-#: Trinity/units/Keldan.cfg:30
-msgid ""
-"The longevity and natural intelligence of elves make them apt for military "
-"matters, even when they have become host to the Khthon."
-msgstr ""
-
-#. [unit_type]: id=Lunar Bug, race=monster
-#: Trinity/units/Lunar-Bug.cfg:5
-msgid "Lunar Bug"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Lunar-Bug.cfg:38 Trinity/units/Lunar-Mantis.cfg:38
-#: Trinity/units/Lunar-Worm.cfg:38 Trinity/units/Seth-Beast.cfg:227
-#: Trinity/units/Seth-Beast2.cfg:49 Trinity/units/Seth-Beast3.cfg:38
-#: Trinity/units/Seth-Beast4.cfg:38
-msgid "bite"
-msgstr ""
-
-#. [unit_type]: id=Lunar Crab, race=monster
-#: Trinity/units/Lunar-Crab.cfg:5
-msgid "Lunar Crab"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Lunar-Crab.cfg:38 Trinity/units/Lunar-Crab.cfg:76
-#: Trinity/units/Lunar-Mantis.cfg:50
-msgid "claw"
-msgstr ""
-
-#. [unit_type]: id=Lunar Mantis, race=monster
-#: Trinity/units/Lunar-Mantis.cfg:5
-msgid "Lunar Mantis"
-msgstr ""
-
-#. [unit_type]: id=Lunar Worm, race=monster
-#: Trinity/units/Lunar-Worm.cfg:5
-msgid "Lunar Worm"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Android, race=mechanical
-#: Trinity/units/Mechanical_Android.cfg:5
-msgid "Android"
-msgstr ""
-
-#. [attack]: type=impact
-#: Trinity/units/Mechanical_Android.cfg:26
-msgid "gripper"
-msgstr ""
-
-#. [attack]: type=impact
-#: Trinity/units/Mechanical_Android.cfg:38
-msgid "shockwave"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Android_Leader, race=mechanical
-#: Trinity/units/Mechanical_Android_General.cfg:5
-msgid "Android Leader"
-msgstr ""
-
-#. [attack]: type=impact
-#: Trinity/units/Mechanical_Android_General.cfg:26
-msgid "clamp"
-msgstr ""
-
-#. [attack]: type=fire
-#: Trinity/units/Mechanical_Android_General.cfg:39
-msgid "flame-thrower"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Cyborg, race=undead
-#. [unit_type]: id=Tri_Mech_Cyborg_Captain, race=undead
-#: Trinity/units/Mechanical_Cyborg-Captain.cfg:5
-#: Trinity/units/Mechanical_Cyborg.cfg:5
-msgid "Cyborg"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Mechanical_Cyborg-Captain.cfg:36
-msgid "falchion"
-msgstr ""
-
-#. [attack]: type=fire
-#: Trinity/units/Mechanical_Cyborg-Captain.cfg:49
-#: Trinity/units/Mechanical_Cyborg.cfg:40
-#: Trinity/units/Mechanical_Scout.cfg:24
-msgid "spark"
-msgstr ""
-
-#. [female]
-#: Trinity/units/Mechanical_Cyborg.cfg:61
-msgid "female^Cyborg"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Defender, race=mechanical
-#: Trinity/units/Mechanical_Defender.cfg:4
-msgid "Defender"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Defender, race=mechanical
-#. [unit_type]: id=Tri_Mech_Drone, race=mechanical
-#: Trinity/units/Mechanical_Defender.cfg:48
-#: Trinity/units/Mechanical_Drone.cfg:48
-msgid ""
-"The drones of this mechanical race do all maintenance and construction "
-"tasks.  They also attack intruders."
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Mechanical_Dragon.cfg:102 Trinity/units/Zombie_Dragon.cfg:28
-msgid "jaw"
-msgstr ""
-
-#. [attack]: type=impact
-#: Trinity/units/Mechanical_Dragon.cfg:117
-msgid "ram"
-msgstr ""
-
-#. [attack]: type=pierce
-#: Trinity/units/Mechanical_Dragon.cfg:133
-msgid "guns"
-msgstr ""
-
-#. [attack]: type=fire
-#: Trinity/units/Mechanical_Dragon.cfg:148
-msgid "point-defense"
-msgstr ""
-
-#. [unit_type]: id=Mech_Seth Dragon, race=mechanical
-#. [unit_type]: id=Mech_Seth Dragon2
-#. [unit_type]: id=Mechanical Dragon Base, race=mechanical
-#. [unit_type]: id=Mechanical Dragon Broken, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoGun, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoJaw, race=mechanical
-#. [unit_type]: id=Mechanical Dragon, race=mechanical
-#: Trinity/units/Mechanical_Dragon.cfg:356
-#: Trinity/units/Mechanical_Dragon.cfg:476
-#: Trinity/units/Mechanical_Dragon.cfg:495
-#: Trinity/units/Mechanical_Dragon.cfg:647
-#: Trinity/units/Mechanical_Dragon.cfg:720
-#: Trinity/units/Mechanical_Dragon.cfg:793
-#: Trinity/units/Mechanical_Dragon.cfg:864
-msgid "Mechanical Dragon"
-msgstr ""
-
-#. [dummy]: id=radioactive
-#: Trinity/units/Mechanical_Dragon.cfg:380
-#: Trinity/units/Mechanical_Dragon.cfg:882
-msgid "radioactive"
-msgstr ""
-
-#. [dummy]: id=radioactive
-#: Trinity/units/Mechanical_Dragon.cfg:381
-#: Trinity/units/Mechanical_Dragon.cfg:883
-msgid ""
-"Units adjacent to this unit will be poisoned at the start of their turn."
-msgstr ""
-
-#. [unit_type]: id=Mech_Seth Dragon, race=mechanical
-#. [unit_type]: id=Mechanical Dragon Base, race=mechanical
-#. [unit_type]: id=Mechanical Dragon Broken, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoGun, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoJaw, race=mechanical
-#. [unit_type]: id=Mechanical Dragon, race=mechanical
-#: Trinity/units/Mechanical_Dragon.cfg:395
-#: Trinity/units/Mechanical_Dragon.cfg:529
-#: Trinity/units/Mechanical_Dragon.cfg:671
-#: Trinity/units/Mechanical_Dragon.cfg:744
-#: Trinity/units/Mechanical_Dragon.cfg:817
-#: Trinity/units/Mechanical_Dragon.cfg:895
-msgid ""
-"It's not clear whether this mechanical dragon is really a dragon, but that "
-"is the most fitting description at hand."
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Drill, race=mechanical
-#: Trinity/units/Mechanical_Drill.cfg:5
-msgid "Miner Robot"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Mechanical_Drill.cfg:24
-msgid "drill"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Drone, race=mechanical
-#: Trinity/units/Mechanical_Drone.cfg:4
-msgid "Drone"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Mine, race=mechanical
-#: Trinity/units/Mechanical_Mine.cfg:4
-msgid "Mine"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Mine, race=mechanical
-#: Trinity/units/Mechanical_Mine.cfg:40
-msgid ""
-"The sentries of this mechanical race have but one purpose, and that is to "
-"destroy all intruders."
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Scout, race=mechanical
-#: Trinity/units/Mechanical_Scout.cfg:5
-msgid "Scout Robot"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Sentinel, race=mechanical
-#: Trinity/units/Mechanical_Sentinel.cfg:4
-msgid "Sentinel"
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Sentinel, race=mechanical
-#: Trinity/units/Mechanical_Sentinel.cfg:48
-msgid ""
-"The sentinels of this mechanical race are upgraded drones, fitted for combat."
-msgstr ""
-
-#. [unit_type]: id=Tri_Mech_Tank, race=mechanical
-#: Trinity/units/Mechanical_Tank.cfg:4
-msgid "Tank"
-msgstr ""
-
-#. [unit_type]: id=Tri_Pig, race=undead
-#. [unit_type]: id=Tri_Pig_2, race=undead
-#: Trinity/units/Pig.cfg:4 Trinity/units/Pig.cfg:31
-msgid "Roasted Pig"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Pig.cfg:58
-msgid "tusk"
-msgstr ""
-
-#. [attack]: type=impact
-#: Trinity/units/Pig.cfg:70
-msgid "hoof"
-msgstr ""
-
-#. [unit_type]: id=SouthSeas Pirate, race=south-seas_human
-#: Trinity/units/Ponce.cfg:11
-msgid "Pirate"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Ponce.cfg:57 Trinity/units/Ponce.cfg:152
-#: Trinity/units/Ponce.cfg:262
-msgid "cutlass"
-msgstr ""
-
-#. [unit_type]: id=SouthSeas Corsair, race=south-seas_human
-#: Trinity/units/Ponce.cfg:106
-msgid "Corsair"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Ponce.cfg:164
-msgid "quoit"
-msgstr ""
-
-#. [unit_type]: id=SouthSeas Seadog, race=south-seas_human
-#: Trinity/units/Ponce.cfg:213
-msgid "Seadog"
-msgstr ""
-
-#. [attack]: type=blade
-#: Trinity/units/Ponce.cfg:274 Trinity/units/Primeval_Nemesis-Hi.cfg:71
-#: Trinity/units/Primeval_Nemesis-Mid.cfg:66
-msgid "chakram"
-msgstr ""
-
 #. [unit_type]: id=Primeval Hera, race=primeval
-#: Trinity/units/Primeval_Hera.cfg:5
+#: Trinity/units/primeval/Primeval_Hera.cfg:5
 msgid "Pantheon Queen"
 msgstr ""
 
 #. [unit_type]: id=Primeval Hera, race=primeval
-#: Trinity/units/Primeval_Hera.cfg:22
+#: Trinity/units/primeval/Primeval_Hera.cfg:22
 msgid ""
 "Hera is the surviving ruler of the Primevals...\n"
 "Special Note:  This unit cannot be killed."
@@ -9862,21 +10281,22 @@ msgstr ""
 
 #. [attack]: type=arcane
 #. [attack]: type=cold
-#: Trinity/units/Primeval_Hera.cfg:51 Trinity/units/Primeval_Nemesis-2.cfg:58
-#: Trinity/units/Primeval_Nemesis-Hi.cfg:58
-#: Trinity/units/Primeval_Nemesis-Low.cfg:53
-#: Trinity/units/Primeval_Nemesis-Mid.cfg:53
-#: Trinity/units/Primeval_Nemesis-Wounded.cfg:60
+#: Trinity/units/primeval/Primeval_Hera.cfg:51
+#: Trinity/units/primeval/Primeval_Nemesis-2.cfg:58
+#: Trinity/units/primeval/Primeval_Nemesis-Hi.cfg:58
+#: Trinity/units/primeval/Primeval_Nemesis-Low.cfg:53
+#: Trinity/units/primeval/Primeval_Nemesis-Mid.cfg:53
+#: Trinity/units/primeval/Primeval_Nemesis-Wounded.cfg:60
 msgid "glare"
 msgstr ""
 
 #. [unit_type]: id=Primeval Nemesis2, race=primeval
-#: Trinity/units/Primeval_Nemesis-2.cfg:5
+#: Trinity/units/primeval/Primeval_Nemesis-2.cfg:5
 msgid "Avenging Goddess"
 msgstr ""
 
 #. [unit_type]: id=Primeval Nemesis2, race=primeval
-#: Trinity/units/Primeval_Nemesis-2.cfg:31
+#: Trinity/units/primeval/Primeval_Nemesis-2.cfg:31
 msgid ""
 "Nemesis was wounded but not killed, for gods cannot be killed.  Now her "
 "enemy shall pay for the attempt on her life.\n"
@@ -9885,13 +10305,13 @@ msgstr ""
 
 #. [unit_type]: id=Nemesis_Wounded, race=primeval
 #. [unit_type]: id=Primeval Nemesishi, race=primeval
-#: Trinity/units/Primeval_Nemesis-Hi.cfg:5
-#: Trinity/units/Primeval_Nemesis-Wounded.cfg:5
+#: Trinity/units/primeval/Primeval_Nemesis-Hi.cfg:5
+#: Trinity/units/primeval/Primeval_Nemesis-Wounded.cfg:5
 msgid "Pax Nemesis"
 msgstr ""
 
 #. [unit_type]: id=Primeval Nemesishi, race=primeval
-#: Trinity/units/Primeval_Nemesis-Hi.cfg:31
+#: Trinity/units/primeval/Primeval_Nemesis-Hi.cfg:31
 msgid ""
 "Nemesis has triumphed the adversary, and will usher in a new age of Law and "
 "Order. There are just a few loose ends in need of tying...\n"
@@ -9900,13 +10320,13 @@ msgstr ""
 
 #. [unit_type]: id=Primeval Nemesislow, race=primeval
 #. [unit_type]: id=Primeval Nemesismid, race=primeval
-#: Trinity/units/Primeval_Nemesis-Low.cfg:5
-#: Trinity/units/Primeval_Nemesis-Mid.cfg:5
+#: Trinity/units/primeval/Primeval_Nemesis-Low.cfg:5
+#: Trinity/units/primeval/Primeval_Nemesis-Mid.cfg:5
 msgid "Primeval Nemesis"
 msgstr ""
 
 #. [unit_type]: id=Primeval Nemesislow, race=primeval
-#: Trinity/units/Primeval_Nemesis-Low.cfg:31
+#: Trinity/units/primeval/Primeval_Nemesis-Low.cfg:31
 msgid ""
 "Nemesis is badly wounded, and is as vulnerable to attacks as any mortal. Her "
 "sword arm is still functioning, luckily, but she cannot fly and her glare "
@@ -9915,150 +10335,172 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=Primeval Nemesismid, race=primeval
-#: Trinity/units/Primeval_Nemesis-Mid.cfg:31
+#: Trinity/units/primeval/Primeval_Nemesis-Mid.cfg:31
 msgid ""
 "Nemesis is recovering, but is still mortal. She cannot fly yet, but she has "
 "regained full use of both arms, so she can throw the chakram again."
 msgstr ""
 
-#. [unit_type]: id=Kraken, race=monster
-#: Trinity/units/Sea-Monsters.cfg:26
-msgid ""
-"The Kraken is a giant tentacled beast, 'Kraken' being more of a description "
-"than a species name.  This particular Kraken resembles a very large nautilus."
+#. [unit_type]: id=Tri_Silver_Bird, race=mechanical
+#: Trinity/units/primeval/Silver_Bird.cfg:4
+msgid "Silver Bird"
 msgstr ""
 
-#. [attack]: type=impact
-#: Trinity/units/Seaman-Khthon.cfg:21
-msgid "oar"
+#. [race]: id=tri_mech
+#: Trinity/units/races.cfg:5
+msgid "race^Machine"
+msgstr ""
+
+#. [race]: id=tri_mech
+#: Trinity/units/races.cfg:6
+msgid "race+female^Machine"
+msgstr ""
+
+#. [race]: id=tri_mech
+#: Trinity/units/races.cfg:7
+msgid "race^Machines"
+msgstr ""
+
+#. [race]: id=tri_avatar
+#: Trinity/units/races.cfg:25
+msgid "race^Avatar"
+msgstr ""
+
+#. [race]: id=tri_avatar
+#: Trinity/units/races.cfg:26
+msgid "race+female^Avatar"
+msgstr ""
+
+#. [race]: id=tri_avatar
+#: Trinity/units/races.cfg:27
+msgid "race^Avatars"
+msgstr ""
+
+#. [trait]: id=tri_elemental
+#: Trinity/units/races.cfg:35
+msgid "elemental"
+msgstr ""
+
+#. [trait]: id=tri_elemental
+#: Trinity/units/races.cfg:36
+msgid "female^elemental"
+msgstr ""
+
+#. [trait]: id=tri_elemental
+#: Trinity/units/races.cfg:37
+msgid "Immune to drain, poison, and plague"
 msgstr ""
 
 #. [unit_type]: id=Seth Beast, race=phantom_egypt
 #. [unit_type]: id=Seth Beast2, race=phantom_egypt
 #. [unit_type]: id=Seth Beast3, race=phantom_egypt
 #. [unit_type]: id=Seth Beast4, race=phantom_egypt
-#: Trinity/units/Seth-Beast.cfg:183 Trinity/units/Seth-Beast2.cfg:5
-#: Trinity/units/Seth-Beast3.cfg:5 Trinity/units/Seth-Beast4.cfg:5
+#: Trinity/units/seth/Seth-Beast.cfg:183 Trinity/units/seth/Seth-Beast2.cfg:5
+#: Trinity/units/seth/Seth-Beast3.cfg:5 Trinity/units/seth/Seth-Beast4.cfg:5
 msgid "Phantom Beast"
 msgstr ""
 
 #. [attack]: type=fire
-#: Trinity/units/Seth-Beast.cfg:248
+#: Trinity/units/seth/Seth-Beast.cfg:248
 msgid "desert wind"
 msgstr ""
 
 #. [attack]: type=cold
-#: Trinity/units/Seth-Beast2.cfg:70
+#: Trinity/units/seth/Seth-Beast2.cfg:70
 msgid "night wind"
 msgstr ""
 
 #. [attack]: type=pierce
-#: Trinity/units/Seth.cfg:83
+#: Trinity/units/seth/Seth.cfg:83
 msgid "fork"
 msgstr ""
 
 #. [attack]: type=cold
-#: Trinity/units/Seth.cfg:95
+#: Trinity/units/seth/Seth.cfg:95
 msgid "glance"
 msgstr ""
 
 #. [attack]: type=impact
-#: Trinity/units/Seth.cfg:107 Trinity/utils/amla.cfg:305
+#: Trinity/units/seth/Seth.cfg:107 Trinity/utils/amla.cfg:305
 msgid "meteor strike"
 msgstr ""
 
 #. [chance_to_hit]: id=tri_focus
-#: Trinity/units/Seth.cfg:114 Trinity/utils/amla.cfg:312
+#: Trinity/units/seth/Seth.cfg:114 Trinity/utils/amla.cfg:312
 msgid "focus"
 msgstr ""
 
 #. [chance_to_hit]: id=tri_focus
-#: Trinity/units/Seth.cfg:115 Trinity/utils/amla.cfg:313
+#: Trinity/units/seth/Seth.cfg:115 Trinity/utils/amla.cfg:313
 msgid ""
 "When used offensively, this attack has increased chance to hit the target. "
 "It also decreases the chance of the unit avoiding the target’s counterattack."
 msgstr ""
 
-#. [unit_type]: id=Tri_Silver_Bird, race=mechanical
-#: Trinity/units/Silver_Bird.cfg:4
-msgid "Silver Bird"
+#. [unit_type]: id=Tri_Pig, race=undead
+#. [unit_type]: id=Tri_Pig_2, race=undead
+#: Trinity/units/tower/Pig.cfg:4 Trinity/units/tower/Pig.cfg:31
+msgid "Roasted Pig"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/tower/Pig.cfg:58
+msgid "tusk"
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/tower/Pig.cfg:70
+msgid "hoof"
 msgstr ""
 
 #. [unit_type]: id=Tower Coconut, race=monster
-#: Trinity/units/Tower_Coconut.cfg:5
+#: Trinity/units/tower/Tower_Coconut.cfg:5
 msgid "Coconut"
 msgstr ""
 
 #. [attack]: type=impact
-#: Trinity/units/Tower_Coconut.cfg:47
+#: Trinity/units/tower/Tower_Coconut.cfg:47
 msgid "husk"
 msgstr ""
 
 #. [unit_type]: id=Tower Dancer, race=human
-#: Trinity/units/Tower_Dancer.cfg:5
+#: Trinity/units/tower/Tower_Dancer.cfg:5
 msgid "Tower Dancer"
 msgstr ""
 
 #. [attack]: type=blade
-#: Trinity/units/Tower_Dancer.cfg:33
+#: Trinity/units/tower/Tower_Dancer.cfg:33
 msgid "fan"
 msgstr ""
 
 #. [attack]: type=blade
-#: Trinity/units/Tower_Dancer.cfg:43
+#: Trinity/units/tower/Tower_Dancer.cfg:43
 msgid "smile"
 msgstr ""
 
 #. [unit_type]: id=Tower Pineapple, race=monster
-#: Trinity/units/Tower_Pineapple.cfg:5
+#: Trinity/units/tower/Tower_Pineapple.cfg:5
 msgid "Pineapple"
 msgstr ""
 
 #. [attack]: type=blade
-#: Trinity/units/Tower_Pineapple.cfg:56
+#: Trinity/units/tower/Tower_Pineapple.cfg:56
 msgid "leaves"
 msgstr ""
 
 #. [unit_type]: id=Tower Servant, race=human
-#: Trinity/units/Tower_Servant.cfg:5
+#: Trinity/units/tower/Tower_Servant.cfg:5
 msgid "Tower Servant"
 msgstr ""
 
 #. [attack]: type=blade
-#: Trinity/units/Tower_Servant.cfg:30
+#: Trinity/units/tower/Tower_Servant.cfg:30
 msgid "frond"
 msgstr ""
 
 #. [attack]: type=fire
-#: Trinity/units/Tower_Servant.cfg:42
+#: Trinity/units/tower/Tower_Servant.cfg:42
 msgid "sauna rock"
-msgstr ""
-
-#. [unit_type]: id=Trinity Wagon, race=human
-#: Trinity/units/Wagon.cfg:5
-msgid "Paddy Wagon"
-msgstr ""
-
-#. [unit_type]: id=Trinity Wagon, race=human
-#: Trinity/units/Wagon.cfg:22
-msgid ""
-"These wagons are small, mobile prisons used for transport of prisoners.  The "
-"driver cannot drop the reins to use anything more complicated than a thrown "
-"rock, but is armored and has some resistance to being displaced.  The wheels "
-"of the wagon cannot traverse deep mud of swamps."
-msgstr ""
-
-#. [unit_type]: id=Zombie Dragon, race=undead
-#: Trinity/units/Zombie_Dragon.cfg:4
-msgid "Zombie Dragon"
-msgstr ""
-
-#. [unit_type]: id=Zombie Dragon, race=undead
-#: Trinity/units/Zombie_Dragon.cfg:24
-msgid ""
-"Long ago one of the mightiest living creatures, the feared Dragon has become "
-"a sick mockery of what it once was.  Abomination though it may be, this "
-"thing is still quite dangerous."
 msgstr ""
 
 #. [message]: speaker=unit
@@ -10396,55 +10838,62 @@ msgstr ""
 msgid "Vacant Chute"
 msgstr ""
 
-#. [terrain_type]: id=dp_rim_filled
+#. [terrain_type]: id=dp_rim_fire
 #: Trinity/utils/terrain.cfg:376
+msgid "Burning Chute"
+msgstr ""
+
+#. [terrain_type]: id=dp_rim_filled
+#: Trinity/utils/terrain.cfg:386
 msgid "Occupied Chute"
 msgstr ""
 
 #. [terrain_type]: id=canyon_tri
 #. [terrain_type]: id=chasm_earthy_tri
-#: Trinity/utils/terrain.cfg:391 Trinity/utils/terrain.cfg:402
+#: Trinity/utils/terrain.cfg:401 Trinity/utils/terrain.cfg:412
 msgid "Chasm"
 msgstr ""
 
 #. [terrain_type]: id=canyon_tri
-#: Trinity/utils/terrain.cfg:392
+#: Trinity/utils/terrain.cfg:402
 msgid "Reg Chasm no trans"
 msgstr ""
 
 #. [terrain_type]: id=chasm_earthy_tri
-#: Trinity/utils/terrain.cfg:403
+#: Trinity/utils/terrain.cfg:413
 msgid "E Chasm no trans"
 msgstr ""
 
 #. [terrain_type]: id=tri_arc
-#: Trinity/utils/terrain.cfg:2778
+#: Trinity/utils/terrain.cfg:2856
 msgid "Arc"
 msgstr ""
 
 #. [terrain_type]: id=tri_trash
-#: Trinity/utils/terrain.cfg:2829
+#: Trinity/utils/terrain.cfg:2907
 msgid "Trash"
 msgstr ""
 
 #. [terrain_type]: id=tri_bones
-#: Trinity/utils/terrain.cfg:2838
+#: Trinity/utils/terrain.cfg:2916
 msgid "Remains"
 msgstr ""
 
 #. [terrain_type]: id=phan1
-#: Trinity/utils/terrain.cfg:3185
+#: Trinity/utils/terrain.cfg:3263
 msgid "Dry Dirt"
 msgstr ""
 
 #. [terrain_type]: id=phan2
-#: Trinity/utils/terrain.cfg:3271
+#: Trinity/utils/terrain.cfg:3349
 msgid "Ice Floor"
 msgstr ""
 
+#. [terrain_type]: id=mirror0p5
 #. [terrain_type]: id=mirror1
 #. [terrain_type]: id=mirror2
-#: Trinity/utils/terrain.cfg:3320 Trinity/utils/terrain.cfg:3329
+#: Trinity/utils/terrain.cfg:3398 Trinity/utils/terrain.cfg:3407
+#: Trinity/utils/terrain.cfg:3416
 msgid "Mirror"
 msgstr ""
 
