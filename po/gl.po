@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Trinity-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-24 03:11+0100\n"
+"POT-Creation-Date: 2014-04-11 15:02+0200\n"
 "PO-Revision-Date: 2013-01-30 00:21-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -283,10 +283,11 @@ msgstr ""
 #: Trinity/scenarios2/Tower_Pushback.cfg:45
 #: Trinity/scenarios2/Tower_Pushback.cfg:726
 #: Trinity/scenarios2/Tower_Pushback.cfg:858
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:322
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:745
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1648
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1791
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:325
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:748
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1651
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1794
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1499
 msgid "Death of Haldrad"
 msgstr ""
 
@@ -303,10 +304,11 @@ msgstr ""
 #: Trinity/scenarios2/Tower_2_sub2.cfg:212
 #: Trinity/scenarios2/Tower_2_sub3.cfg:200
 #: Trinity/scenarios2/Tower_3_pII.cfg:957
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:338
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:764
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1667
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1811
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:341
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:767
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1670
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1814
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1511
 msgid "Death of Dardrus"
 msgstr ""
 
@@ -319,9 +321,7 @@ msgstr ""
 #: Trinity/scenarios1/3_P04_Engine.cfg:282
 #: Trinity/scenarios1/3_P04p2_Blockage.cfg:54
 #: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:146
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:177
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:222
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:239
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:175
 msgid "Time runs out"
 msgstr ""
 
@@ -352,7 +352,7 @@ msgstr ""
 #. [unit]: type=Dardrus, id=Dardrus
 #: Trinity/scenarios1/3_H01_Beggar.cfg:167
 #: Trinity/scenarios1/3_H01_Beggar.cfg:368
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:157
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:160
 msgid "Dardrus"
 msgstr ""
 
@@ -929,7 +929,7 @@ msgstr ""
 #: Trinity/scenarios1/3_H05_Encounter.cfg:1329
 #: Trinity/scenarios1/3_H06_Reversal.cfg:37
 #: Trinity/scenarios1/3_K05_Interrogation.cfg:43
-#: Trinity/scenarios1/3_K06_Choice.cfg:50
+#: Trinity/scenarios1/3_K06_Choice.cfg:54
 #: Trinity/scenarios1/3_P05_Landing.cfg:71
 #: Trinity/scenarios1/3_P05_Landing.cfg:349
 #: Trinity/scenarios1/3_P05_Landing.cfg:438
@@ -1109,6 +1109,8 @@ msgstr ""
 #. [message]: speaker=Human1
 #. [message]: speaker=Ponce
 #. [race]: id=tri_avatar
+#. [race]: id=tri_avatar2
+#. [race]: id=tri_avatar3
 #. [race]: id=tri_mech
 #. [unit_type]: id=EchidnaLow, race=khthon
 #. [unit_type]: id=EchidnaMid, race=khthon
@@ -1133,6 +1135,11 @@ msgstr ""
 #. [unit_type]: id=Tower Pineapple, race=monster
 #. [unit_type]: id=Tower Servant, race=human
 #. [unit_type]: id=Tri_Bronze_Bird, race=mechanical
+#. [unit_type]: id=Tri_Daemon0, race=tri_avatar
+#. [unit_type]: id=Tri_Daemon1, race=tri_avatar2
+#. [unit_type]: id=Tri_Daemon2, race=tri_avatar
+#. [unit_type]: id=Tri_Daemon3, race=tri_avatar2
+#. [unit_type]: id=Tri_Daemon4, race=tri_avatar
 #. [unit_type]: id=Tri_Flying_Platform, race=mechanical
 #. [unit_type]: id=Tri_Mech_Android, race=tri_mech
 #. [unit_type]: id=Tri_Mech_Android_Leader, race=tri_mech
@@ -1149,6 +1156,11 @@ msgstr ""
 #: Trinity/scenarios1/3_H05_Encounter.cfg:257
 #: Trinity/scenarios1/3_P04_Engine.cfg:459
 #: Trinity/scenarios2/Tower_2_sub1.cfg:791
+#: Trinity/units/avatar/Trinity_Daemon0.cfg:20
+#: Trinity/units/avatar/Trinity_Daemon1.cfg:20
+#: Trinity/units/avatar/Trinity_Daemon2.cfg:20
+#: Trinity/units/avatar/Trinity_Daemon3.cfg:20
+#: Trinity/units/avatar/Trinity_Daemon4.cfg:20
 #: Trinity/units/blue/Cyan_Flyer.cfg:52 Trinity/units/humans/Bresda.cfg:30
 #: Trinity/units/humans/Bresda.cfg:99 Trinity/units/humans/Bresda.cfg:200
 #: Trinity/units/humans/Cannon.cfg:22 Trinity/units/humans/Ponce.cfg:38
@@ -1169,7 +1181,8 @@ msgstr ""
 #: Trinity/units/primeval/Chariot.cfg:39
 #: Trinity/units/primeval/Primeval_Nemesis-Wounded.cfg:31
 #: Trinity/units/primeval/Silver_Bird.cfg:41 Trinity/units/races.cfg:8
-#: Trinity/units/races.cfg:28 Trinity/units/seth/Seth-Beast.cfg:223
+#: Trinity/units/races.cfg:28 Trinity/units/races.cfg:73
+#: Trinity/units/races.cfg:119 Trinity/units/seth/Seth-Beast.cfg:223
 #: Trinity/units/seth/Seth-Beast2.cfg:45 Trinity/units/seth/Seth-Beast3.cfg:31
 #: Trinity/units/seth/Seth-Beast4.cfg:31 Trinity/units/seth/Seth.cfg:24
 #: Trinity/units/tower/Pig.cfg:25 Trinity/units/tower/Pig.cfg:51
@@ -1544,10 +1557,11 @@ msgstr ""
 #: Trinity/scenarios2/Tower_2_sub3.cfg:384
 #: Trinity/scenarios2/Tower_3_p.cfg:346
 #: Trinity/scenarios2/Tower_Pushback.cfg:221
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:128
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:131
 #: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:59
 #: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:110
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:39 Trinity/units/seth/Seth.cfg:5
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:38
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:59 Trinity/units/seth/Seth.cfg:5
 msgid "Seth"
 msgstr ""
 
@@ -1998,7 +2012,7 @@ msgstr ""
 #. [side]: type=Spearman, id=Fooby
 #: Trinity/scenarios1/3_K02_Elves.cfg:159
 #: Trinity/scenarios1/3_K04_Storm.cfg:315
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:184
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:187
 msgid "Keldan"
 msgstr ""
 
@@ -2112,7 +2126,7 @@ msgstr ""
 #: Trinity/scenarios1/3_K02_Elves.cfg:386
 #: Trinity/scenarios1/3_K02_Elves.cfg:456 Trinity/scenarios1/3_K03_Lord.cfg:50
 #: Trinity/scenarios1/3_K04_Storm.cfg:96 Trinity/scenarios2/Tower_3_p.cfg:251
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:353
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:356
 msgid "Death of Keldan"
 msgstr ""
 
@@ -2215,7 +2229,8 @@ msgstr ""
 #. [unit_type]: id=Tri_Echidna, race=khthon
 #: Trinity/scenarios1/3_K03_Lord.cfg:237
 #: Trinity/scenarios1/3_K04_Storm.cfg:218
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:53
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:52
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:73
 #: Trinity/units/khthon/Echidna-Low.cfg:8
 #: Trinity/units/khthon/Echidna-Mid.cfg:5 Trinity/units/khthon/Echidna.cfg:5
 msgid "Echidna"
@@ -2333,8 +2348,9 @@ msgstr ""
 #: Trinity/scenarios1/3_P05_Landing.cfg:59
 #: Trinity/scenarios1/3_P05_Landing.cfg:337
 #: Trinity/scenarios1/3_P05_Landing.cfg:426
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:214
 #: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:231
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:252
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:268
 msgid "Defeat Enemy Leaders"
 msgstr ""
 
@@ -2762,7 +2778,7 @@ msgid "A Choice"
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios1/3_K06_Choice.cfg:24
+#: Trinity/scenarios1/3_K06_Choice.cfg:28
 msgid ""
 "Bresda led Dardrus and Haldrad to the central Governor's Hall, a place "
 "familiar to Haldrad in happier days. Usually, the Hall was a place where the "
@@ -2772,38 +2788,56 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios1/3_K06_Choice.cfg:28
+#: Trinity/scenarios1/3_K06_Choice.cfg:32
 msgid ""
 "It was all Haldrad could do to hold his tongue at the outrage, but when he "
 "saw the winged figure sitting upon the throne, he knew he was in over his "
 "head. He hoped his trust in Dardrus was not misplaced..."
 msgstr ""
 
-#. [message]: speaker=Bresda_
-#: Trinity/scenarios1/3_K06_Choice.cfg:145
+#. [side]: type=Primeval Nemesishi, id=Nemesis
+#. [side]: type=Primeval Nemesislow, id=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:144
+#: Trinity/scenarios1/3_P01_Village.cfg:292
+#: Trinity/scenarios1/3_P02_Entrance.cfg:177
+#: Trinity/scenarios1/3_P03_Cave.cfg:227
+#: Trinity/scenarios1/3_P04_Engine.cfg:402
+#: Trinity/scenarios1/3_P04p2_Blockage.cfg:163
+#: Trinity/scenarios1/3_P05_Landing.cfg:133 Trinity/scenarios2/F1_P.cfg:180
+#: Trinity/scenarios2/F2_P.cfg:516
+msgid "Nemesis"
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:161
+msgid "Approach!  What is it, Bresda?"
+msgstr ""
+
+#. [message]: speaker=Bresda
+#: Trinity/scenarios1/3_K06_Choice.cfg:166
 msgid "These visitors came to warn us of something."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios1/3_K06_Choice.cfg:150
+#: Trinity/scenarios1/3_K06_Choice.cfg:171
 msgid ""
-"We were turned away from an inland city by Khthon, Echidna must have gained "
-"a foothold. Those forces were advancing this way."
+"Nemesis, We were turned away from an inland city by Khthon, Echidna must "
+"have gained a foothold. Those forces were advancing this way."
 msgstr ""
 
-#. [message]: speaker=Nemesis_
-#: Trinity/scenarios1/3_K06_Choice.cfg:155
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:176
 msgid "This is indeed bad news, thank you for the warning, ... ?"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios1/3_K06_Choice.cfg:159
+#: Trinity/scenarios1/3_K06_Choice.cfg:180
 msgid ""
 "Dardrus. I was a fighter for Lord Ares, though I was not at the mountain top."
 msgstr ""
 
-#. [message]: speaker=Nemesis_
-#: Trinity/scenarios1/3_K06_Choice.cfg:163
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:184
 msgid ""
 "Then you were the one who sent the messenger bird, you can be trusted.  I "
 "cannot be so sure of the trustworthiness of your servant though, for he "
@@ -2811,57 +2845,62 @@ msgid ""
 "those who have proven themselves, you do not need him anymore."
 msgstr ""
 
-#. [message]: speaker=Nemesis_
-#: Trinity/scenarios1/3_K06_Choice.cfg:167
-msgid "Bresda, kill them."
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:188
+msgid "Bresda, round up the new arrivals and kill them."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios1/3_K06_Choice.cfg:171
+#: Trinity/scenarios1/3_K06_Choice.cfg:192
 msgid ""
 "No!  You are unfamiliar with them, but they have served me well.  Let us not "
 "kill them."
 msgstr ""
 
-#. [message]: speaker=Nemesis_
-#: Trinity/scenarios1/3_K06_Choice.cfg:175
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:196
 msgid "Very well.  But they cannot come with us."
 msgstr ""
 
-#. [message]: speaker=Nemesis_
-#: Trinity/scenarios1/3_K06_Choice.cfg:179
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:200
 msgid ""
 "Bresda!  Take this one, and the rest of our prisoners to the island.  I will "
 "later take it off-shore, where they will be secure.  Then prepare to head "
 "east."
 msgstr ""
 
-#. [message]: speaker=Bresda_
-#: Trinity/scenarios1/3_K06_Choice.cfg:183
+#. [message]: speaker=Bresda
+#: Trinity/scenarios1/3_K06_Choice.cfg:204
 msgid "Yes, my goddess."
 msgstr ""
 
-#. [message]: speaker=Nemesis_
-#: Trinity/scenarios1/3_K06_Choice.cfg:195
+#. [message]: speaker=Bresda
+#: Trinity/scenarios1/3_K06_Choice.cfg:209
+msgid "Move, princling!"
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:246
 msgid ""
 "If everything works out, Dardrus, you will get your servants back, if you "
 "still want them.  But for now, they are more of a liability."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios1/3_K06_Choice.cfg:199
+#: Trinity/scenarios1/3_K06_Choice.cfg:250
 msgid "... Yes, Nemesis."
 msgstr ""
 
-#. [message]: speaker=Nemesis_
-#: Trinity/scenarios1/3_K06_Choice.cfg:203
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios1/3_K06_Choice.cfg:254
 msgid ""
 "We shall continue to head east, up the river.  Be ready to leave once Bresda "
 "returns."
 msgstr ""
 
 #. [endlevel]
-#: Trinity/scenarios1/3_K06_Choice.cfg:314
+#: Trinity/scenarios1/3_K06_Choice.cfg:418
 msgid "The End of Part 1 - Continued in Trinity Part 2"
 msgstr ""
 
@@ -2925,9 +2964,10 @@ msgstr ""
 #: Trinity/scenarios1/3_P03_Cave.cfg:55 Trinity/scenarios1/3_P03_Cave.cfg:404
 #: Trinity/scenarios1/3_P04_Engine.cfg:278
 #: Trinity/scenarios1/3_P04p2_Blockage.cfg:50
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:749
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1652
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1795
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:752
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1655
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1798
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1507
 msgid "Death of Ponce"
 msgstr ""
 
@@ -2946,10 +2986,11 @@ msgstr ""
 #: Trinity/scenarios2/Tower_2_sub2.cfg:216
 #: Trinity/scenarios2/Tower_2_sub3.cfg:204
 #: Trinity/scenarios2/Tower_3_pII.cfg:961
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:342
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:768
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1671
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1815
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:345
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:771
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1674
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1818
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1515
 msgid "Death of Bresda"
 msgstr ""
 
@@ -2966,17 +3007,6 @@ msgstr ""
 #. [side]: type=Saurian Flanker, id=Izara
 #: Trinity/scenarios1/3_P01_Village.cfg:258
 msgid "Izara"
-msgstr ""
-
-#. [side]: type=Primeval Nemesislow, id=Nemesis
-#: Trinity/scenarios1/3_P01_Village.cfg:292
-#: Trinity/scenarios1/3_P02_Entrance.cfg:177
-#: Trinity/scenarios1/3_P03_Cave.cfg:227
-#: Trinity/scenarios1/3_P04_Engine.cfg:402
-#: Trinity/scenarios1/3_P04p2_Blockage.cfg:163
-#: Trinity/scenarios1/3_P05_Landing.cfg:133 Trinity/scenarios2/F1_P.cfg:175
-#: Trinity/scenarios2/F2_P.cfg:516
-msgid "Nemesis"
 msgstr ""
 
 #. [side]: type=Harridan, id=Bresda_
@@ -3217,10 +3247,13 @@ msgstr ""
 msgid "That's too bad... I found him amusing."
 msgstr ""
 
+#. [message]: speaker=Avatar
 #. [message]: speaker=Bresda
 #. [message]: speaker=Bresda_
 #: Trinity/scenarios1/3_P01_Village.cfg:661
 #: Trinity/scenarios1/3_P03_Cave.cfg:729
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1588
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1757
 msgid "No!"
 msgstr ""
 
@@ -3760,8 +3793,10 @@ msgstr ""
 msgid "It's a live one!"
 msgstr ""
 
+#. [message]: speaker=Haldrad
 #. [message]: speaker=Nemesis
 #: Trinity/scenarios1/3_P03_Cave.cfg:677
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1465
 msgid "What do you mean?"
 msgstr ""
 
@@ -4619,22 +4654,22 @@ msgid "Reach southern edge of map"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:196
+#: Trinity/scenarios2/F1_P.cfg:201
 msgid "We've definately reached the perimeter of the earth's rot."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:200
+#: Trinity/scenarios2/F1_P.cfg:205
 msgid "Indeed, I've been through here before, and it was not this... dry..."
 msgstr ""
 
 #. [message]: speaker=Nemesis_
-#: Trinity/scenarios2/F1_P.cfg:204
+#: Trinity/scenarios2/F1_P.cfg:209
 msgid "This is not what I expected...  I doubt this is the work of Echidna."
 msgstr ""
 
 #. [message]: speaker=Nemesis_
-#: Trinity/scenarios2/F1_P.cfg:209
+#: Trinity/scenarios2/F1_P.cfg:214
 msgid ""
 "Press onward, but I shall continue further inland.  This war has expanded, "
 "now I must claim something which will secure our power over our numerous "
@@ -4642,56 +4677,56 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Leader1
-#: Trinity/scenarios2/F1_P.cfg:217
+#: Trinity/scenarios2/F1_P.cfg:222
 msgid ""
 "Turn around...  By Order of The <i>*wheeze*</i>, go away!  If you persist "
 "upon your trespass...  I will be forced to...  destroy you..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:221
+#: Trinity/scenarios2/F1_P.cfg:226
 msgid ""
 "We must persist, Dead One.  Tell me, who is your master?  Is Dolevan around?"
 msgstr ""
 
 #. [message]: speaker=Leader2
-#: Trinity/scenarios2/F1_P.cfg:225
+#: Trinity/scenarios2/F1_P.cfg:230
 msgid "<i>Grauph!</i>"
 msgstr ""
 
 #. [message]: speaker=Leader1
-#: Trinity/scenarios2/F1_P.cfg:229
+#: Trinity/scenarios2/F1_P.cfg:234
 msgid "Do not mention that name!  He will not...  speak to you."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:233
+#: Trinity/scenarios2/F1_P.cfg:238
 msgid "(I suppose he never did like me.)"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:237
+#: Trinity/scenarios2/F1_P.cfg:242
 msgid ""
 "(Ishtu will save us, if we do our part.  We must move past these husks!)"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:241
+#: Trinity/scenarios2/F1_P.cfg:246
 msgid "(Agreed!  Let's go.)"
 msgstr ""
 
 #. [message]: speaker=Elf1
-#: Trinity/scenarios2/F1_P.cfg:270 Trinity/scenarios2/F1_P.cfg:308
+#: Trinity/scenarios2/F1_P.cfg:275 Trinity/scenarios2/F1_P.cfg:313
 msgid "Be calm, I am not your enemy!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/F1_P.cfg:274
+#: Trinity/scenarios2/F1_P.cfg:279
 msgid "*<i>Squeak</i>*?"
 msgstr ""
 
 #. [message]: speaker=Elf1
-#: Trinity/scenarios2/F1_P.cfg:278 Trinity/scenarios2/F1_P.cfg:316
+#: Trinity/scenarios2/F1_P.cfg:283 Trinity/scenarios2/F1_P.cfg:321
 msgid ""
 "I have been keeping watch.  Our leader, Lord Ullien-Del, was defeated in a "
 "manner most strange, and my countrymen were consumed by a strange curse.  "
@@ -4702,62 +4737,62 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Elf2
-#: Trinity/scenarios2/F1_P.cfg:291 Trinity/scenarios2/F1_P.cfg:329
+#: Trinity/scenarios2/F1_P.cfg:296 Trinity/scenarios2/F1_P.cfg:334
 msgid ""
 "Very well.  We wouldn't be able to stay here much longer anyway, the way the "
 "desert rot has been progressing!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/F1_P.cfg:297 Trinity/scenarios2/F1_P.cfg:346
+#: Trinity/scenarios2/F1_P.cfg:302 Trinity/scenarios2/F1_P.cfg:351
 msgid "Whoa!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/F1_P.cfg:312
+#: Trinity/scenarios2/F1_P.cfg:317
 msgid "Who are you then?"
 msgstr ""
 
 #. [message]
-#: Trinity/scenarios2/F1_P.cfg:375
+#: Trinity/scenarios2/F1_P.cfg:380
 msgid "Must...  defend the homeland..."
 msgstr ""
 
 #. [message]: speaker=Leader1
-#: Trinity/scenarios2/F1_P.cfg:383
+#: Trinity/scenarios2/F1_P.cfg:388
 msgid "I told you to turn around..."
 msgstr ""
 
 #. [message]: speaker=Leader1
-#: Trinity/scenarios2/F1_P.cfg:396
+#: Trinity/scenarios2/F1_P.cfg:401
 msgid "I warned you...  Now I must...  <i>wheeze...</i>  Come, Ancient One!"
 msgstr ""
 
 #. [message]: speaker=ZDragon
-#: Trinity/scenarios2/F1_P.cfg:415
+#: Trinity/scenarios2/F1_P.cfg:420
 msgid "<i>Rhaassp!</i>"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:419
+#: Trinity/scenarios2/F1_P.cfg:424
 msgid ""
 "They must have access to all the resources Dolevan had squirreled away..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:423
+#: Trinity/scenarios2/F1_P.cfg:428
 msgid "Who's Dolevan?"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:431
+#: Trinity/scenarios2/F1_P.cfg:436
 msgid ""
 "We fight to go into some nightmare, but what does it have to do with the "
 "green-eyed beasts, and why isn't Nemesis here?"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:435
+#: Trinity/scenarios2/F1_P.cfg:440
 msgid ""
 "I am shocked that you even have to ask that!  What business is it of yours?  "
 "Do you not have faith in Ishtu, or Nemesis, as she seems to prefer these "
@@ -4765,7 +4800,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:439
+#: Trinity/scenarios2/F1_P.cfg:444
 msgid ""
 "I have faith that Nemesis, or Ishtu, is doing what she can, but she put us "
 "in charge of these forces because she trusted our sense of leadership.  So "
@@ -4774,14 +4809,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:443
+#: Trinity/scenarios2/F1_P.cfg:448
 msgid ""
 "No! I will not fail her!  We shall destroy the abominations that push back "
 "against us!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:447
+#: Trinity/scenarios2/F1_P.cfg:452
 msgid ""
 "Ishtu would be proud to hear that, Commander.  But as we carry on, let us "
 "consider that she is not here, and we must make our own decisions.  Now ask "
@@ -4789,63 +4824,63 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:451
+#: Trinity/scenarios2/F1_P.cfg:456
 msgid ""
 "We are going to strike into the heart of evil, destroy those who oppose us, "
 "and bring as much glory to our goddess as we can!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:455
+#: Trinity/scenarios2/F1_P.cfg:460
 msgid "(*<i>sigh</i>*)  We will talk about this later."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/F1_P.cfg:467
+#: Trinity/scenarios2/F1_P.cfg:472
 msgid "We've made it!  The land ahead is barren, but gives us more cover."
 msgstr ""
 
 #. [message]: speaker=ZDragon
-#: Trinity/scenarios2/F1_P.cfg:499
+#: Trinity/scenarios2/F1_P.cfg:504
 msgid "Grrrr..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:507
+#: Trinity/scenarios2/F1_P.cfg:512
 msgid "That was strange..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:511
+#: Trinity/scenarios2/F1_P.cfg:516
 msgid "That is surely not the last we've seen of that charming fellow."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/F1_P.cfg:535 Trinity/scenarios2/F2_P.cfg:1164
-#: Trinity/scenarios2/Tower_1_p.cfg:847 Trinity/scenarios2/Tower_2_p.cfg:693
+#: Trinity/scenarios2/F1_P.cfg:540 Trinity/scenarios2/F2_P.cfg:1165
+#: Trinity/scenarios2/Tower_1_p.cfg:881 Trinity/scenarios2/Tower_2_p.cfg:693
 #: Trinity/scenarios2/Tower_2_sub1.cfg:699
 #: Trinity/scenarios2/Tower_2_sub2.cfg:644
 #: Trinity/scenarios2/Tower_2_sub3.cfg:800
 #: Trinity/scenarios2/Tower_3_pII.cfg:2171
 #: Trinity/scenarios2/Tower_Pushback.cfg:1200
 #: Trinity/scenarios2/Tower_Pushback.cfg:1325
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1689
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1703
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1692
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1706
 msgid "Oh, what a world..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F1_P.cfg:550
+#: Trinity/scenarios2/F1_P.cfg:555
 msgid "A shadow blocks the sky..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F1_P.cfg:554
+#: Trinity/scenarios2/F1_P.cfg:559
 msgid "A growing dark cloud..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/F1_P.cfg:558
+#: Trinity/scenarios2/F1_P.cfg:563
 msgid ""
 "All combatants looked up as the sky was blotted out by a gathering "
 "darkness.  Then there was a screeching sound, as a great wind was whipped "
@@ -5112,109 +5147,109 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F2_P.cfg:782
+#: Trinity/scenarios2/F2_P.cfg:783
 msgid ""
 "That pile of wood has burst into flames...  Have we proved that we are not "
 "'weak and cowardly'?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/F2_P.cfg:808
+#: Trinity/scenarios2/F2_P.cfg:809
 msgid "<i>Not</i> weak and cowardly..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:858
+#: Trinity/scenarios2/F2_P.cfg:859
 msgid ""
 "That pile of wood has burst into flames...  Will that help keep out the "
 "'dark and cold'?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/F2_P.cfg:884
+#: Trinity/scenarios2/F2_P.cfg:885
 msgid "Must escape dark and cold..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:955
+#: Trinity/scenarios2/F2_P.cfg:956
 msgid ""
 "Well, we've got two glowing skulls but the door is still blocked.  I wish we "
 "knew what we were supposed to do..."
 msgstr ""
 
 #. [message]: speaker=Dragon1
-#: Trinity/scenarios2/F2_P.cfg:967
+#: Trinity/scenarios2/F2_P.cfg:968
 msgid "<i>Rhhassp...</i>"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F2_P.cfg:971
+#: Trinity/scenarios2/F2_P.cfg:972
 msgid "Careful what you wish for."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:985
+#: Trinity/scenarios2/F2_P.cfg:986
 msgid ""
 "The brazier on the eastern little tower is unlit.  Something tells me "
 "changing that is the next step..."
 msgstr ""
 
 #. [message]: speaker=Dragon2
-#: Trinity/scenarios2/F2_P.cfg:1003
+#: Trinity/scenarios2/F2_P.cfg:1004
 msgid "<i>Grrr...</i>"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:1007
+#: Trinity/scenarios2/F2_P.cfg:1008
 msgid "Yep, I knew it.  Kill - uh - Destroy that thing!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:1037
+#: Trinity/scenarios2/F2_P.cfg:1038
 msgid "Where was the skeleton hiding these?  But hey, I'm not complaining..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:1058
+#: Trinity/scenarios2/F2_P.cfg:1059
 msgid "The brazier on the western little tower has been lit."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F2_P.cfg:1068
+#: Trinity/scenarios2/F2_P.cfg:1069
 msgid "Let us hope we are getting closer to opening that slab."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F2_P.cfg:1102
+#: Trinity/scenarios2/F2_P.cfg:1103
 msgid ""
 "Who knows why that dragon dropped gold coins, but we could certainly use "
 "them..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:1123
+#: Trinity/scenarios2/F2_P.cfg:1124
 msgid "The brazier on the eastern little tower has been lit."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F2_P.cfg:1133
+#: Trinity/scenarios2/F2_P.cfg:1134
 msgid "How many more hoops do we need to jump through..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/F2_P.cfg:1144
+#: Trinity/scenarios2/F2_P.cfg:1145
 msgid ""
 "... No more, it seems, the door is open.  I doubt we can bring the whole of "
 "our forces through it.  Those who are able, should follow Bresda and me."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/F2_P.cfg:1148
+#: Trinity/scenarios2/F2_P.cfg:1149
 msgid "The rest of you will need to withdraw and wait for Nemesis to return."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/F2_P.cfg:1153
+#: Trinity/scenarios2/F2_P.cfg:1154
 msgid ""
 "Only the units that enter the tower will be available in subsequent "
 "scenarios.  Once both Bresda and Dardrus have entered the tower, the recall "
@@ -5305,7 +5340,7 @@ msgid "Stop or delay the destruction spreading form the tower."
 msgstr ""
 
 #. [side]: type=Primeval Nemesislow, id=Nemesis_
-#: Trinity/scenarios2/Tower_1_p.cfg:366 Trinity/scenarios2/Tower_2_p.cfg:353
+#: Trinity/scenarios2/Tower_1_p.cfg:389 Trinity/scenarios2/Tower_2_p.cfg:353
 #: Trinity/scenarios2/Tower_2_sub1.cfg:286
 #: Trinity/scenarios2/Tower_2_sub2.cfg:297
 #: Trinity/scenarios2/Tower_2_sub3.cfg:414
@@ -5314,117 +5349,130 @@ msgid "Nemesis2"
 msgstr ""
 
 #. [set_menu_item]: id=crawl_ai_on
-#: Trinity/scenarios2/Tower_1_p.cfg:406 Trinity/utils/utils.cfg:105
+#: Trinity/scenarios2/Tower_1_p.cfg:429 Trinity/utils/utils.cfg:105
 msgid "Give AI control of unit"
 msgstr ""
 
 #. [set_menu_item]: id=crawl_ai_off
-#: Trinity/scenarios2/Tower_1_p.cfg:430 Trinity/utils/utils.cfg:131
+#: Trinity/scenarios2/Tower_1_p.cfg:453 Trinity/utils/utils.cfg:131
 msgid "Take control of unit"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/Tower_1_p.cfg:521
+#: Trinity/scenarios2/Tower_1_p.cfg:541
 msgid ""
 "Ha!  Remember us?  Thought you'd wiped us all out, I'll bet.  Well no!  We "
 "get one more crack at yah!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/Tower_1_p.cfg:626
+#: Trinity/scenarios2/Tower_1_p.cfg:646
 msgid "This is the way up!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/Tower_1_p.cfg:641
+#: Trinity/scenarios2/Tower_1_p.cfg:661
 msgid "I think this is the way up, but I can't get this gate open!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/Tower_1_p.cfg:655
+#: Trinity/scenarios2/Tower_1_p.cfg:675
 msgid "I'm getting really tired of seeing that thing!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/Tower_1_p.cfg:659
+#: Trinity/scenarios2/Tower_1_p.cfg:679
 msgid "How do you know it's the same one?"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/Tower_1_p.cfg:663
+#: Trinity/scenarios2/Tower_1_p.cfg:683
 msgid "That does not matter, I'm sick of them all!"
 msgstr ""
 
 #. [message]
-#: Trinity/scenarios2/Tower_1_p.cfg:679
+#: Trinity/scenarios2/Tower_1_p.cfg:699
 msgid "That seems to have done the trick!  The gate opened!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/Tower_1_p.cfg:683
+#: Trinity/scenarios2/Tower_1_p.cfg:703
 msgid "Let's move on then."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/Tower_1_p.cfg:697
+#: Trinity/scenarios2/Tower_1_p.cfg:717
 msgid ""
 "This fountain is so refreshing...  I'd like to stay here, to wash in its "
 "cool water."
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/Tower_1_p.cfg:790
+#: Trinity/scenarios2/Tower_1_p.cfg:810
 msgid "So...  We have visitors..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/Tower_1_p.cfg:794
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:577
+#: Trinity/scenarios2/Tower_1_p.cfg:814
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:580
 msgid "Who are you?"
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/Tower_1_p.cfg:798
+#: Trinity/scenarios2/Tower_1_p.cfg:818
 msgid "You may call me Seth, and I am the builder of this tower."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/Tower_1_p.cfg:802
+#: Trinity/scenarios2/Tower_1_p.cfg:822
 msgid "Then you are <i>evil</i>, and we will destroy you!"
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/Tower_1_p.cfg:806
+#: Trinity/scenarios2/Tower_1_p.cfg:826
 msgid ""
-"Such spirit!  But I did not build this tower to please you.  I've built it "
-"to filter out the dross of this world, and recover what I can of the "
-"scattered spirit."
+"Such spirit!  But how can you call me evil, when you really have no idea of "
+"my motives?"
+msgstr ""
+
+#. [message]: speaker=Bresda
+#: Trinity/scenarios2/Tower_1_p.cfg:830
+msgid ""
+"This tower rises out of the wounded countryside like a bloody spear, you "
+"cannot tell me you are not evil!"
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/Tower_1_p.cfg:810
+#: Trinity/scenarios2/Tower_1_p.cfg:834
 msgid ""
-"But please, do explore my handywork.  Your only chance of stopping this lies "
+"I've built this tower to filter out the dross of this world, and recover "
+"what I can of the scattered spirit."
+msgstr ""
+
+#. [message]: speaker=Seth
+#: Trinity/scenarios2/Tower_1_p.cfg:838
+msgid ""
+"But please, do explore my handywork.  Your only chance of stopping me lies "
 "at the top of tower..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/Tower_1_p.cfg:814
+#: Trinity/scenarios2/Tower_1_p.cfg:842
 msgid "Why would you inform us of that?"
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/Tower_1_p.cfg:818
+#: Trinity/scenarios2/Tower_1_p.cfg:846
 msgid "I have my reasons..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/Tower_1_p.cfg:832
+#: Trinity/scenarios2/Tower_1_p.cfg:866
 msgid "It's as if he wants us to reach the top..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/Tower_1_p.cfg:836
+#: Trinity/scenarios2/Tower_1_p.cfg:870
 msgid ""
 "What else are we going to do though?  We must try bring this evil thing down!"
 msgstr ""
@@ -6072,7 +6120,7 @@ msgstr ""
 #. [message]: speaker=Dardrus
 #. [message]: speaker=Haldrad
 #: Trinity/scenarios2/Tower_2_sub2.cfg:317
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:265
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:365
 msgid "What have we here?"
 msgstr ""
 
@@ -7642,7 +7690,7 @@ msgstr ""
 
 #. [objective]: condition=lose
 #: Trinity/scenarios2/Tower_Pushback.cfg:49
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:326
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:329
 msgid "Death of Caldera"
 msgstr ""
 
@@ -7876,12 +7924,12 @@ msgid "Then let us proceed slowly, and don't try anything clever."
 msgstr ""
 
 #. [scenario]: id=Dark_Planet
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:7
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:5
 msgid "Dark Planet"
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:27
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:25
 msgid ""
 "Queen Caldera directed the party through the icy caverns, and into a hall "
 "made of metal and marble.  As the queen drew their attention to a "
@@ -7895,7 +7943,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:35
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:33
 msgid ""
 "Ponce barely had time to rejoin the party at the altar before a minor quake "
 "shook the mountain.  Queen Caldera explained that she was lifting the Sky "
@@ -7904,7 +7952,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:41
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:39
 msgid ""
 "'The enemy is from a land so distant, it is amongst the stars,' explained "
 "Caldera.  'It moved from star to star, conquering and devouring all who it "
@@ -7918,14 +7966,18 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:49
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:47
 msgid ""
 "'Though the enemy was unsuccessful, it was not really defeated, and it has "
 "been lurking in our shadow, biding its time.'  Caldera motioned toward the "
 "image of the dark moon that was gradually engulfing the entire panel of "
 "glass.  'Now it tries to devour us once more, and it is up to us to finish "
-"the work that our ancestors were forced to start so many years ago.'\n"
-"\n"
+"the work that our ancestors were forced to start so many years ago.'"
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:54
+msgid ""
 "The image of the dark moon filled the entire glass panel, and details of the "
 "surface were becoming evident.  It was mostly a dark and grey desert-scape, "
 "barren of anything resembling life.  But then Haldrad saw there was a small "
@@ -7936,43 +7988,36 @@ msgid ""
 "land.'"
 msgstr ""
 
-#. [part]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:57
-msgid ""
-"These last scenarios are under construction and are unfinished.  It should "
-"be possible to win this next one though."
-msgstr ""
-
 #. [side]: type=Spearman, id=Fooby
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:105
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:108
 #: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:37
 msgid "Haldrad"
 msgstr ""
 
 #. [objective]: condition=win
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:318
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:334
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:349
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:169
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:321
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:337
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:352
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:167
 msgid "Find and Defeat Enemy Leaders"
 msgstr ""
 
 #. [objectives]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:328
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:331
 msgid ""
 "These last scenarios are under construction.  This one should work, but the "
 "next one isn't written yet."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:468
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:471
 msgid ""
 "Haha!  I must be the first orc to set foot on this new land!  ...  Hmmm ...  "
 "It's a cursed land - I think I like my homeland better, despite all the ices."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:480
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:483
 msgid ""
 "It may be one small step for a man, orc, or elf, but it's one giant step for "
 "dwarf kin!  Ah...  Hrmh...  This place is dark and rocky like a cave, but it "
@@ -7980,90 +8025,90 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:536
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:539
 msgid "Where are we?"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:540
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:543
 msgid ""
 "I don't know, but I recognize some of the architecture.  This is territory "
 "of The Pantheon, or at least it once was."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:545
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:548
 msgid "That's fascinating..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:551
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:554
 msgid "How do we open these doors and get out?"
 msgstr ""
 
 #. [message]: speaker=Tanyche
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:562
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:565
 msgid "You have come!  Let us be on our way!"
 msgstr ""
 
 #. [message]: speaker=Tanyche
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:581
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:584
 msgid ""
 "Why, I am the scout to guide you, the vanguard of our revenge against the "
 "pilot!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:585
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:588
 msgid "(Dardrus, what is she talking about?)"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:589
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:592
 msgid "(I have no idea...)"
 msgstr ""
 
 #. [message]: speaker=Tanyche
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:593
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:596
 msgid "What are you waiting for?  You <i>are</i> our vanguard, are you not?"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:597
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:600
 msgid "Yes, of course we are!  Now, let us find and destroy this ... pilot."
 msgstr ""
 
 #. [message]: speaker=Tanyche
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:601
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:604
 msgid ""
 "We'll need to get to the lower level of the main structure to the north."
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:614
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:617
 msgid ""
 "So, my red-eyed enemies are here...  <i>Keldan, we will soon be trapped "
 "between a hammer and an anvil, if we don't act now...</i>"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:618
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:621
 msgid "<i>Yes, Echidna.  What do you wish me to do?</i>"
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:622
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:625
 msgid ""
 "<i>Create a distraction, just like when we destroyed the human capital.</i>"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:626
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:629
 msgid "<i>Yes, Echidna, as you command...</i>"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:630
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:633
 msgid ""
 "So, Red-eyed daemon!  You have joined our little adventure!  No doubt you "
 "have come to the aid of your evil master!  Prince, we must destroy these "
@@ -8071,83 +8116,84 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:637
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:640
 msgid "(What is <i>he</i> doing here?)"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:641
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:644
 msgid ""
 "Prince Haldrad!  Don't be fooled, we are not enemies!  It is the green-eyed "
 "ones such as him that are not to be trusted."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:645
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:648
 msgid ""
 "It has been a while, Dardrus, and you did leave me in prison.  But I still "
 "trust you more than these evil elves, let us join forces."
 msgstr ""
 
 #. [message]: speaker=Ponce
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:649
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:652
 msgid "Speaking of 'trust', where did the Queen go?"
 msgstr ""
 
 #. [message]: speaker=Echidna
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:693
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:696
 msgid ""
 "I'm right here!  I need this Sceptre, <i>'my son'</i>, you shall soon "
 "understand..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:699
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:702
 msgid ""
 "No, Echidna...  We are not here for your amusement - you shall join me..."
 msgstr ""
 
 #. [message]: speaker=Echidna
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:704
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:707
 msgid ""
 "You've made a mistake in your little game, Seth!  You thought to lure me in, "
 "but you are getting weaker, while I've grown stronger!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:741
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:760
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:744
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:763
 msgid "Defeat Khthon Leaders"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:753
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1656
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1799
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:756
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1659
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1802
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1503
 msgid "Death of Lyron"
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:870
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:873
 msgid ""
 "<i>Remember me?!</i>  I've been given a chance to show you how wrong you "
 "were to reject our master!"
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:891
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:894
 msgid ""
 "My people could have crushed you like the primitive heathens you are, yet "
 "even we were nothing compared to Seth...  And now, well, enough talk!"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1035
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1038
 msgid "I see movement in that strange ice-mountain."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1041
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1044
 msgid ""
 "Those are the enemy.  I sense... We must lure them into my chambers.  For "
 "now, assist my Ancient Servants and put up a good fight, until I give the "
@@ -8155,35 +8201,35 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1045
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1048
 msgid "As you wish."
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1075
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1078
 msgid "There, we need to get into the larger building!"
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1079
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1082
 msgid ""
 "Hrm...  I see the Elves, or whatever used to be Elves, have beat us here!"
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1084
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1087
 msgid ""
 "Really!  I did not expect to see them here.  <i>(mutters: What in all the "
 "void is Keldan doing here?)</i> "
 msgstr ""
 
 #. [message]: speaker=Ponce
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1089
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1092
 msgid "Who did you expect to see?"
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1093
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1096
 msgid ""
 "Just more of those who fought us at the Tower Ruins.  We are clearly "
 "fighting forces the likes of which we have never seen, we should make useof "
@@ -8191,31 +8237,31 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1097
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1100
 msgid ""
 "No!  Mother, we've gone over this several times already!  The Sceptre stays "
 "hidden and under my control until I know more about our situation."
 msgstr ""
 
 #. [message]: speaker=Lyron
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1101
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1104
 msgid "Should I put her in the brig, Your Excellency?"
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1105
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1108
 msgid "Why are you so eager to get me out of the way, <i>Advisor</i>?!"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1109
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1112
 msgid ""
 "(They squabble amongst themselves...  Can they not be united even in this "
 "battle?  ... Seth will surely triumph.)"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1120
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1123
 msgid ""
 "My Liege, we veterans and trainees have been talking, and we recognize there "
 "is nothing waiting for us if we fail.  We will fight as long as we have the "
@@ -8223,31 +8269,31 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1124
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1127
 msgid ""
 "Thank you, $unit.name|.  Let the forces know that their sacrifices shall not "
 "go unnoticed.  With such dedication in our forces, we shall prevail."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1129
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1132
 msgid ""
 "Recalling and supporting units is not as expensive in this scenario as in "
 "standard scenarios."
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1169
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1172
 msgid "Who are you!?"
 msgstr ""
 
 #. [message]: speaker=Ponce
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1174
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1177
 msgid "No, who are you?"
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1178
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1181
 msgid ""
 "I am a loyal servant to the winged Goddess of Vengeance!  If you are "
 "friends, I offer my allegience, but if you are her foes, I bring sharp "
@@ -8255,7 +8301,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1183
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1186
 msgid ""
 "The disheveled fighter's gaze lingered on Queen Caldera for a moment, as if "
 "he recognized her, then he turned his eyes back to the one who had addressed "
@@ -8263,42 +8309,42 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ponce
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1187
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1190
 msgid "Winged goddess, huh?  If she is the one who-"
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1191
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1194
 msgid ""
 "Easy, Sir Ponce!  We have no quarrel with the Goddess of Vengeance, Stranger-"
 msgstr ""
 
 #. [message]: speaker=Lyron
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1195
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1198
 msgid "Indeed, an enemy of the Goddess of Vengeance is an enemy of ours!"
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1199
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1202
 msgid ""
 "Glad I am to hear that, this has been a very strange day...  Let us kill "
 "some green-eyed daemons!"
 msgstr ""
 
 #. [message]: speaker=Lyron
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1209
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1212
 msgid ""
 "So tell me, faithful servant of the Goddess, where were you hiding?  Why did "
 "we not see you, and are there any others?"
 msgstr ""
 
 #. [message]: speaker=Ponce
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1213
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1216
 msgid "(I knew I should have pushed us to follow the blood-trails...)"
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1217
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1220
 msgid ""
 "My name is Kerrnyn.  I was alone, save for my Goddess and her brass-winged "
 "agents.  I was tricked by a green-eyed daemon into the Ice Mountain, where "
@@ -8309,38 +8355,38 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Lyron
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1221
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1224
 msgid ""
 "I see...  So there are no reinforcements coming?  Prince Haldrad, now you "
 "know where we stand..."
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1225
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1228
 msgid ""
 "Well, there was some water stored in the back chambers, just follow the "
 "light-colored tiles..."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1229
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1232
 msgid "Really!  Thank you-"
 msgstr ""
 
 #. [message]: speaker=Lyron
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1233
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1236
 msgid ""
 "<i>Brother</i> Kerrnyn!  This is valuable information you give, and Our "
 "Goddess shall be proud of your efforts!"
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1237
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1240
 msgid "I sense you mock me...  Do you really serve Our Goddess?"
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1241
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1244
 msgid ""
 "Kerrnyn, it is true, we are not of your faith...  But I have fought side-by-"
 "side with a man of your goddess's stock, I considered him my friend.  "
@@ -8349,26 +8395,26 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1245
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1248
 msgid ""
 "I see...  It is all I could hope for, I'm sure my Goddess will forgive me if "
 "I share the supplies that I know are in the mountain...  I shall return."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1257
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1260
 msgid ""
 "Haldrad and his officers exchanged glances, but he decided to give the "
 "crazed fighter a chance to return of his own accord."
 msgstr ""
 
 #. [message]: speaker=Lyron
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1275
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1278
 msgid "Look who's back..."
 msgstr ""
 
 #. [message]: speaker=Kerrnyn
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1279
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1282
 msgid ""
 "Yes, I'm back, with supplies!  The Goddess had instructed us on how to clean "
 "and dress wounds, these two medical tents have all the instruments needed "
@@ -8376,22 +8422,22 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1307
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1310
 msgid "Stop this!  Why are we fighting?"
 msgstr ""
 
 #. [message]: speaker=E_Caldera
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1337
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1340
 msgid "(*hisses*<i>Keldan, look at me!</i>)"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1341
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1344
 msgid "...  Echidna?  Is that you?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1346
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1349
 msgid ""
 "Keldan felt very conflicted.  He knew Seth's promise was empty, so he was "
 "biding his time to see if there was another possible winning side.  The part "
@@ -8401,22 +8447,22 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1350
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1353
 msgid "Keep your cover for now, I will-"
 msgstr ""
 
 #. [message]: speaker=Minder
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1360
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1363
 msgid "ALERT!  Betrayal!  ALERT-"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1365
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1368
 msgid "Silence you!"
 msgstr ""
 
 #. [message]: speaker=Keldan
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1392
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1395
 msgid ""
 "Damnation!  They see my true colors!  Human Prince, I fight for you now!  We "
 "are enemies, and I'll admit I razed your capitol, but we must unite now to "
@@ -8424,51 +8470,51 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1396
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1399
 msgid ""
 "You seem to have the trust of my mother. (<i> Or whoever that is...</i>)  I "
 "accept your offer, let us join forces for now."
 msgstr ""
 
 #. [message]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1433
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1436
 msgid "The slaves revolt!  Seek and destroy!"
 msgstr ""
 
 #. [message]: id=Imambyses
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1437
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1440
 msgid "Indeed...  We no longer require your services, Keldan ..."
 msgstr ""
 
 #. [message]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1457
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1460
 msgid "The enemy generals are falling, we are winning!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1463
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1466
 msgid "Your <i>arrogance</i> shall be your downfall..."
 msgstr ""
 
 #. [message]: speaker=Mech_D
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1497
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1500
 msgid "*ROAR!*"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1502
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1505
 msgid ""
 "The mechanical monster made a strange, ear-splitting noise that was like "
 "nothing the humans or khthon had ever heard before..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1513
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1516
 msgid "So this is the end...  I'll never know..."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1517
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1520
 msgid ""
 "He was a good man back when he was an elf, but the elves have suffered a "
 "very strange illness.  I hope that in death, they find peace and freedom "
@@ -8476,7 +8522,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Echidna
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1521
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1524
 msgid ""
 "We are not <i>daemons!</i>  But you are sad little animals, and your silly "
 "little kingdoms fold when confronted, just like how my dear Seth's little "
@@ -8484,115 +8530,115 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1525
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1528
 msgid ""
 "No...  Don't be fooled...  Seth will win...  unless you destroy...  the "
 "source."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1529
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1532
 msgid "What source, where?  What are you saying?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1533
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1536
 msgid "Underground... <i>*rasp*</i> ..."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1541
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1544
 msgid "So...  we need to destroy something underground."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1545
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1548
 msgid "Or it is a trap, his last attempt to harm us."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1549
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1552
 msgid "Hrmm..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1564
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1567
 msgid "This is not the end of me..."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1568
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1571
 msgid "Sure looks like the end to me!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1572
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1575
 msgid "I wouldn't be so sure, Prince Haldrad.  Keep your guard up!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1613
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1616
 msgid ""
 "This mighty wand can shoot explosive fire, I've seen it with my own eyes!  "
 "We'll fry the enemy now!"
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1617
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1620
 msgid ""
 "We could do that, but that thing also attracts all sorts of attention, and "
 "if we lose it, we can't go home.  We need to keep it hidden."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1621
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1624
 msgid "Right, I see.  I'll pass it along as soon as I can."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1627
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1630
 msgid ""
 "We need the Sceptre to power the flying mountain to get home.  It's a "
 "powerful weapon, but we'll need to keep it under wraps for now."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1633
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1636
 msgid ""
 "Now we have to focus our efforts on defeating the lord of this strange "
 "world, lest it come back to attack us again."
 msgstr ""
 
 #. [objective]: condition=win
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1644
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1663
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1647
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1666
 #: Trinity/scenarios2/ZA2_Dark_Planet-II.cfg:138
 msgid "Find and Defeat Seth"
 msgstr ""
 
 #. [message]: speaker=Ponce
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1769
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1772
 msgid ""
 "We are just going to get overwhelmed by these machines if we stay here - I "
 "don't see how we can defeat them!"
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1773
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1776
 msgid ""
 "You're right...  We need to get into Seth's compound and take this fight to "
 "him!  Everyone, head to the large building, we're going in!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1777
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1780
 msgid ""
 "Prince!  There is that smaller building that also has passage to the "
 "underground, shouldn't some of us check that out as well?"
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1781
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1784
 msgid ""
 "I don't like the idea of splitting our forces, but it might be for the best, "
 "since we don't know the layout of Seth's lair...  Very well, you take the "
@@ -8600,44 +8646,44 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1787
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1790
 msgid "Haldrad reaches north-most stairwell"
 msgstr ""
 
 #. [objectives]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1801
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1804
 msgid ""
 "Any unit from Side 3 that goes to the north-most stairwell before Haldrad "
 "will join Side 1."
 msgstr ""
 
 #. [objective]: condition=win
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1807
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1810
 msgid "Dardrus or Bresda reaches east-most stairwell"
 msgstr ""
 
 #. [objectives]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1817
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1820
 msgid ""
 "Any unit from Side 1 that goes to the east-most stairwell before Dardrus or "
 "Bresda will join Side 3."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1844
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1883
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1847
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1886
 msgid "Now, let us put an end to that evil Seth!"
 msgstr ""
 
 #. [message]
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1848
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1887
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1851
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1890
 msgid "We are in position.  Fate be with you!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1857
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1896
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1860
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1899
 msgid ""
 "Hurry up!  We need to storm the lower level at the same time, lest the first "
 "give away the element of surprise for the second."
@@ -8645,8 +8691,8 @@ msgstr ""
 
 #. [message]: speaker=Bresda
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1861
-#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1900
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1864
+#: Trinity/scenarios2/ZA1_Dark_Planet-I.cfg:1903
 msgid "We are trying!"
 msgstr ""
 
@@ -8938,174 +8984,175 @@ msgid ""
 msgstr ""
 
 #. [scenario]: id=Dark_Planet_2b
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:10
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:9
 msgid "Dark Planet (IIb) "
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:28
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:27
 msgid ""
 "While the leadership of Weldyn was busy clearing out Seth's lair, the other "
 "travelers entered a quite different section of the compound."
 msgstr ""
 
 #. [side]: type=Tri_Mech_Android_Leader, id=Mech_187
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:42
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:41
 msgid "MS 187"
 msgstr ""
 
 #. [side]: type=Tri_Azure_Mage, id=Sayers
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:77
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:76
 msgid "Sayers"
 msgstr ""
 
 #. [side]: type=Spearman, id=Fooby
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:151
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:66
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:43
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:144
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:149
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:65
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:50
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:103
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:86
 msgid "Fooby"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:173
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:235
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:171
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:256
 msgid "Death of Bresda or Dardrus"
 msgstr ""
 
 #. [objectives]
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:180
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:178
 msgid ""
 "These last scenarios are under construction.  This one is mostly written, "
 "but is not really balanced."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:394
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:392
 msgid "There is something strange about this place."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:398
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:396
 msgid "Yes, I think I hear a steady droning or hum..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:418
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:415
 msgid "We need to set up a staging area for our forces.  Fall back!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:435
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:432
 msgid "This looks like it would be a good staging area."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:489
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:486
 msgid ""
 "This door is thick, solid steel!  There is no way we can force our way in..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:515
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:512
 msgid "<i>Scanning complete!</i>"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:520
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:517
 msgid "Hrmph...  Strange..."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:524
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:521
 msgid "It is indeed."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:536
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:533
 msgid ""
 "There's a steel plate on the floor here...  It could be a patch, but ...  It "
 "clicked when I touched it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:564
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:561
 msgid "There appears to be some damage to the hallway here."
 msgstr ""
 
 #. [message]: speaker=Sayers
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:578
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:575
 msgid ""
 "I was told to be expecting you.  Please, drop your weapons and surrender.  "
 "There is something you must see."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:582
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:579
 msgid ""
 "We shall not drop our weapons to surrender!  If you have something to show "
 "us, so be it, but we came here to cleanse our land of you and your master!"
 msgstr ""
 
 #. [message]: speaker=Sayers
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:586
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:583
 msgid ""
 "<i>*Sigh!*</i>  I understand, I once felt that way too...  Very well, we "
 "shall continue to fight."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:601
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:598
 msgid "Now, what was it that you wanted us to surrender to see?"
 msgstr ""
 
 #. [message]: speaker=Sayers
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:605
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:602
 msgid ""
 "You shall find it for yourself ... just head east of here, then north ..."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:609
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:606
 msgid "I've no patience for games!  Surely you can say more than that!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:617
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:614
 msgid "He shall say no more.  He is dead."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:658
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:655
 msgid ""
 "This place seems more grand than the halls I've just been wandering...  I "
 "think I'm on the correct path."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:682
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:679
 msgid "A metal plate, not much larger than my hand..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:693
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:690
 msgid "I guess it is used to open that door."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:717
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:714
 msgid ""
 "I suspect we are supposed to head north.  Whether we <i>should</i> go in "
 "there, that is another question."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:721
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:718
 msgid "We should, where else are we going to go?"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:798
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:795
 msgid ""
 "The problem with your type is that you are so capricious and "
 "unpredictable...  Just like Echidna.  I have something to correct that.  "
@@ -9113,54 +9160,54 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mech_Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:803
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:800
 msgid "We will drain the red ichor from your soft bodies!"
 msgstr ""
 
 #. [message]: speaker=Mech_Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:807
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:804
 msgid "Indeed...  You have outlived your usefulness."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:811
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:808
 msgid ""
 "We sound nothing like that, Evil One!  We will destroy you and your metal "
 "toys!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:815
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:812
 msgid "Indeed...  This has gone on long enough."
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:896
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:893
 msgid "Good riddance!  That was an odd experience."
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:917
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:914
 msgid "Well!  It <i>is</i> odd to kill your evil metal twin!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:923
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:920
 msgid "You seemed to enjoy that a little too much, $second_unit.name|!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:927
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:924
 msgid "I swear, it was just the robot!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:956
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:953
 msgid "It's quieting down in here.  We've defeated the guardians!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:960
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:957
 msgid ""
 "Indeed, it does appear that way.  If this chamber is a giant machine in the "
 "service of our enemy, it cannot be for any good benign purpose.  Now that it "
@@ -9168,34 +9215,34 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:964
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:961
 msgid "I agree!"
 msgstr ""
 
 #. [animate_unit]
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:977
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:974
 msgid "Clang!"
 msgstr ""
 
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:992
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:989
 msgid ""
 "You certainly succeeded in doing something.  We should get out of here "
 "before we are trapped!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:996
+#: Trinity/scenarios2/ZA2b_Dark_Planet-IIb.cfg:993
 msgid "Right!  Get to the surface, everyone!"
 msgstr ""
 
 #. [scenario]: id=Dark_Planet_3
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:6
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:5
 msgid "Dark Planet (III) - Interlude "
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:25
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:24
 msgid ""
 "The silence in the ancient stone halls after Prince Haldrad's forces had "
 "withdrawn from Seth's lair lasted but a few minutes.  Then a frustrated "
@@ -9203,49 +9250,49 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:105
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:104
 msgid "Aaaarrgh...."
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:111
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:110
 msgid ""
 "That went very poorly.  We'd gotten out of shape over the years, hadn't we?"
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:127
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:126
 msgid ""
 "The enemy is wrecking all that my allies have built over the years...  This "
 "cannot continue...  I sense..."
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:135
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:134
 msgid ""
 "I know you are there, Echidna.  We're both out of options, and we both know "
 "it.  Come here, lurking in the shadows does neither of us any good."
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:151
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:150
 msgid "Being forced to hide in a bug's body must be humiliating..."
 msgstr ""
 
 #. [message]: speaker=Seth
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:157
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:156
 msgid ""
 "This would have been so much better if we weren't in such pathetic "
 "conditions, but it will have to do....  Well, come with me, old girl."
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:209
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:208
 msgid "We are whole again!  Words cannot do this moment justice!"
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:223
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:222
 msgid ""
 "We are not strong enough to break the ancient chains, but we can use them to "
 "our advantage; we shall wield the curses and weaknesses of our jailors "
@@ -9253,7 +9300,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:228
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:227
 msgid "Come, Icy Fear!  Bane of the timid and common!"
 msgstr ""
 
@@ -9268,22 +9315,22 @@ msgid "Come, Unstoppable Stupidity!  Crusher of vision and bane of action!"
 msgstr ""
 
 #. [message]: speaker=Stupid
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:267
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:268
 msgid "Ghuha! Ghuha!  Ghuha!"
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:272
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:273
 msgid "Come, Violent Cruelty!  Slayer of trust and father of rage!"
 msgstr ""
 
 #. [message]: speaker=Cruel
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:289
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:291
 msgid "I look forward to meeting our hosts, I have much to ... discuss."
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:294
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:296
 msgid ""
 "Hahaha, yes, you shall meet our hosts - Let us bring our blessings to the "
 "animals on the surface!  Then you may run rampant upon the blue planet "
@@ -9291,7 +9338,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:299
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:301
 msgid ""
 "This is our first taste of freedom...  For so long, we have been stripped "
 "and degraded...  Now, we bring divine justice, and we shall show no mercy to "
@@ -9299,27 +9346,27 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Cruel
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:303
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:305
 msgid "I can almost taste their blood..."
 msgstr ""
 
 #. [message]: speaker=Stupid
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:307
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:309
 msgid "Ghuhahahaha!"
 msgstr ""
 
 #. [message]: speaker=Fear
-#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:311
+#: Trinity/scenarios2/ZA3_Dark_Planet-III.cfg:313
 msgid "*(whispher)*"
 msgstr ""
 
 #. [scenario]: id=Dark_Planet_3b
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:6
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:11
 msgid "Dark Planet (III)"
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:24
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:31
 msgid ""
 "Haldrad's forces escaped from Seth's lair via a back chamber.  Haldrad was "
 "pleased with how his forces had fought the unfamiliar enemy, but had an "
@@ -9329,7 +9376,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:30
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:37
 msgid ""
 "Dardrus, Bresda, and the sailors fled down the metal hallways, well aware "
 "that the rising ambient rumble, as well as the occasional siren or hissing "
@@ -9338,159 +9385,488 @@ msgid ""
 msgstr ""
 
 #. [side]: type=Trinity Avatar, id=Avatar
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:70
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:77
 msgid "The Destroyer"
 msgstr ""
 
 #. [side]: type=Tri_Cyan_Cyborg_Flyer, id=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:162
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:121
 msgid "General Tristien"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:218
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:235
 msgid "Death of Haldrad or allied heroes"
 msgstr ""
 
-#. [objectives]
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:225
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:242
+#. [objective]: condition=lose
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:239
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:260
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:272
 msgid ""
-"These last scenarios are under construction.  This one is not really written "
-"yet, but you can use this start-of-scenario savefile in future versions when "
-"it is written."
+"Enemy captures Sky Mountain (the snow terrain region in southeast corner)"
+msgstr ""
+
+#. [objectives]
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:246
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:262
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:274
+msgid ""
+"These last scenarios are under construction.  This one is a work in "
+"progress, though it is playable."
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:281
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:381
 msgid "What's the hold-up?!"
 msgstr ""
 
 #. [message]: speaker=Mech_Captain
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:285
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:385
 msgid "There is ... an ... obstacle..."
 msgstr ""
 
 #. [message]: speaker=Nemesis
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:289
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:389
 msgid "*(snort!)* I'm more than an obstacle...  I am a <b><i>God</i>!</b>"
 msgstr ""
 
+#. [message]: speaker=Bresda
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:393
+msgid "Isht- I mean- Nemesis!  You're here!"
+msgstr ""
+
 #. [message]: speaker=Dardrus
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:293
-msgid ""
-"Prince!  We need to leave this place, get back on the Sky Mountain!  Right "
-"now!"
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:399
+msgid "Prince!  We need to leave this place!  Right now!"
 msgstr ""
 
 #. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:297
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:403
 msgid ""
-"We've destroyed the enemy stronghold, but, ah, there may be consequenceses!"
+"We've destroyed the nest of the machines, but, ah, there have been "
+"complications."
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:407
+msgid ""
+"Bresda, Dardrus ...  I don't know how you got here, but the Sky Mountain is "
+"the only way I know of off this rock, and we must defend it at all costs.  "
+"However, before we leave, we must destroy the evil spirit that calls himself "
+"'Seth'."
 msgstr ""
 
 #. [message]: speaker=Haldrad
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:301
-msgid "Fair enough, let's all get to the Sky Mountain!"
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:411
+msgid ""
+"We've defeated that evil lord!  He won't be causing us any more trouble."
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:415
+msgid "I find it hard to believe Seth could fall to the likes of you..."
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:422
+msgid ""
+"But I've seen powerful gods fall to inferior beings because of the vice of "
+"pride.  Very well, let's get out of here.  Make your way to the Sky Mountain."
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:436
+msgid "Stop them!"
 msgstr ""
 
 #. [message]: speaker=Mech_D
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:315
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:440
 msgid "<i>Acquiring targets...</i>"
 msgstr ""
 
 #. [message]: speaker=Mech1
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:344
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:469
 msgid "Core has been compromised!  Link is down!"
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:348
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:473
 msgid ""
-"...  Confirmed!  Link is down!  All units, attack enemy, make way to foreign "
-"mountain!"
+"...  Confirmed!  Link is down!  All units, attack the enemy, continue to "
+"make your way to the foreign mountain!  It may be our only escape!"
 msgstr ""
 
 #. [message]: speaker=Mech_D
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:352
-msgid "Orders confirmed...  Core temperature is rising..."
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:477
+msgid "Orders confirmed..."
 msgstr ""
 
 #. [message]: speaker=Mech2
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:381
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:510
 msgid "We are the last, the others will not make it!"
 msgstr ""
 
-#. [message]: speaker=Bresda
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:397
-msgid ""
-"May those trapped below rest in peace, I promise I will not let their deaths "
-"go unavenged!"
-msgstr ""
-
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:406
-msgid ""
-"Arrgh!  The core is on fire!  Dragon, severe all links!  Stop the enemy from "
-"reaching the foreign mountain!"
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:515
+msgid "All units, cut standard transmissions and switch to local link only."
 msgstr ""
 
-#. [message]: type=Mech2
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:416
+#. [message]: speaker=Bresda
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:519
+msgid "He says such strange things..."
+msgstr ""
+
+#. [message]: speaker=Dardrus
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:529
+msgid "What is that?"
+msgstr ""
+
+#. [message]: id=Mech2
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:553
 msgid "System flood...  cannot ..."
 msgstr ""
 
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:577
+msgid ""
+"I said to <i>sever standard transmissions</i>!  The core is on fire, anyone "
+"linked to it will be overwhelmed!"
+msgstr ""
+
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:428
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:593
 msgid "General Tristien... I hadn't expected you to still be here."
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:432
-msgid "Lord Seth?  Is that you?"
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:597
+msgid "Lord Seth, is that you?"
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:436
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:601
 msgid "In a sense, yes..."
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:440
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:605
 msgid "They've damaged the core, we are unstable...  Can you help?"
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:444
-msgid ""
-"We are here to slay the intruders, then take care of the world that has held "
-"us for so long.  We no longer need the core."
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:609
+msgid "We no longer need the core."
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:448
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:613
 msgid ""
 "<i>No longer need the core?</i>  We need the core!  You are leaving us to "
 "die!"
 msgstr ""
 
 #. [message]: speaker=Avatar
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:452
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:617
 msgid ""
 "If you are going to be such a pest, Tristien, I must thank you for all your "
 "hard work and send you on your way..."
 msgstr ""
 
 #. [message]: speaker=Tristien
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:456
-msgid "I see."
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:621
+msgid "I see...  "
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:628
+msgid "(Oh, Creator, what have I done? ...)"
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:635
+msgid ""
+"Attention all units!  We've been mislead by lies and false promises!  The "
+"enemy are the ghosts and phantoms, not the invaders!  Change targets!"
 msgstr ""
 
 #. [message]: speaker=Mech_D
-#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:460
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:639
+msgid "Understood!  Acquiring <i><b>new</b></i> targets..."
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:862
+msgid "Immovable Stupidity, show these people your power!"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:903
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:986
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1073
+msgid "Hahaha..."
+msgstr ""
+
+#. [message]: speaker=Dardrus
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:907
+msgid "(I wonder what it finds so amusing...)"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:945
+msgid "Paralyzing Fear, show these people your power!"
+msgstr ""
+
+#. [message]: speaker=Ponce
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:990
+msgid "The leading daemon is getting stronger as we kill off its minions."
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1032
+msgid "Crushing Cruelty, show these people your power!"
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1084
+msgid "Uh-oh, we may have made a mistake."
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1088
+msgid "You certainly have!  Now you're mine!"
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1255
+msgid "Argh, what are you doing to me?"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1259
+msgid "*laughs*"
+msgstr ""
+
+#. [message]: speaker=Tristien
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1263
+msgid "It's reconnecting me to the dying core..."
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1296
 msgid ""
-"Acquiring <i><b>new</b></i> targets...  Broadcast to all units: Attack the "
-"ghost forces!"
+"The machines were necessary at the time, but now you are getting in the way!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1346
+msgid "So, this is how I end ...  But I will take you down with me!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1350
+msgid ""
+"The wounded metal-man started to emit a strange hum, that did not seem to "
+"come from his head.  It got louder and louder, until-"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1384
+msgid "General Tristien has made his exit, in the manner of all who oppose me!"
+msgstr ""
+
+#. [message]: speaker=Dardrus
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1388
+msgid "(His death was spectacular...)"
+msgstr ""
+
+#. [message]: speaker=Bresda
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1392
+msgid "(I wonder if that big monster machine can do the same thing?)"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1396
+msgid "So long, robots!"
+msgstr ""
+
+#. [message]: speaker=Mech_D
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1405
+msgid "*BZZZZZ!*"
+msgstr ""
+
+#. [message]: speaker=Dardrus
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1414
+msgid "(Can the big machine also explode?  We may be about to find out...)"
+msgstr ""
+
+#. [message]: speaker=Avatar
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1453
+msgid "*(laughter)*"
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1457
+msgid "How are we ever going to defeat this thing?"
+msgstr ""
+
+#. [message]: speaker=Lyron
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1461
+msgid "Maybe we don't need to..."
+msgstr ""
+
+#. [message]: speaker=Lyron
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1469
+msgid ""
+"That building in the north seems to be a kind of gate.  What if we direct "
+"our attack against that?"
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1473
+msgid "And just how do we do that?"
+msgstr ""
+
+#. [message]: speaker=Ponce
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1477
+msgid "Ah-ha!  We send an unstable war machine through the portal!"
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1481
+msgid "Hrmm, I see.  But how do we get the machine to go through the portal?"
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1485
+msgid "I am a god, I can herd it into position."
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1489
+msgid ""
+"All right then.  We'll help clear the way, and then we need to get to the "
+"Sky Mountain to escape."
+msgstr ""
+
+#. [objective]: condition=win
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1495
+msgid "Nemesis pushes Mechanical Dragon into the Avatars' portal."
+msgstr ""
+
+#. [objective]: condition=lose
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1519
+msgid "Death of Mechanical Dragon"
+msgstr ""
+
+#. [objectives]
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1521
+msgid ""
+"Nemesis moves the Mechanical Dragon by attacking it and forcing it back.  Be "
+"careful not to send it off a cliff."
+msgstr ""
+
+#. [message]: speaker=Mech_D
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1531
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1693
+msgid "Core temperature rising ... "
+msgstr ""
+
+#. [message]: speaker=Mech_D
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1536
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1698
+msgid "Fire control offline ..."
+msgstr ""
+
+#. [message]
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1596
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1765
+msgid "We need to get out of here!"
+msgstr ""
+
+#. [message]: speaker=Nemesis
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1600
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1769
+msgid "Get back into the mountain..."
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1669
+msgid "Well, that's too bad...  Any other ideas?"
+msgstr ""
+
+#. [message]: speaker=Lyron
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1673
+msgid "It looks pretty hopeless..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1790
+msgid "I've reached the Sky Mountain..."
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1794
+msgid "Don't let them into the mountain!  It's our only way home!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1808
+msgid "Entering the Sky Mountain..."
+msgstr ""
+
+#. [message]: speaker=Haldrad
+#: Trinity/scenarios2/ZA3b_Dark_Planet-IIIb.cfg:1812
+msgid "All is lost..."
+msgstr ""
+
+#. [scenario]: id=Epilogue
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:5
+msgid "Epilogue"
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:24
+msgid ""
+"The Sky Mountain left the Dark Planet as the combined fires of Seth's "
+"collapsing compound and the failing gate of the other-worldly enemy."
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:31
+msgid ""
+"During the trip back, Haldrad pulled Dardrus aside to ask what would happen "
+"when they returned home.  Would Nemesis insist that she be their god or "
+"ruler?  Dardrus assured him that while some Primevals would do just that, "
+"Nemesis could be dissuaded.  With their civilization was gone, and their "
+"race few in number, Dardrus said he would make the case that Nemesis should "
+"lead an expedition to recover what and who could be recovered."
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:38
+msgid ""
+"Ponce and Bresda had a difficult time reconciling, and were quite relieved "
+"when the Sky Mountain landed in the ruins of Weldyn.  Bresda and the "
+"surviving Primevalists remained aboard the Mountain with Dardrus and "
+"Nemesis, but the rest spread out across the damaged land.  The Sky Mountain "
+"headed off into the sunset."
+msgstr ""
+
+#. [part]
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:45
+msgid ""
+"As he watched the odd, icy mass drift away, Haldrad noticed something odd "
+"about the sky:  there were <i>two suns!</i>  It seemed the Dark Planet was "
+"no longer dark...  A voice from behind startled him. 'We can use the extra "
+"daylight,' said Advisor Lyron, 'We have a lot of rebuilding to do.  You are "
+"going to be ushering in a new era, my lord, and I think it will be a bright "
+"one.'"
+msgstr ""
+
+#. [endlevel]
+#: Trinity/scenarios2/ZZ_Epilogue.cfg:105
+msgid "The End"
 msgstr ""
 
 #. [unit_type]: id=Trinity Ball, race=mechanical
@@ -9504,12 +9880,16 @@ msgid "A spark of light..."
 msgstr ""
 
 #. [unit_type]: id=Trinity Avatar, race=tri_avatar
+#. [unit_type]: id=Trinity Avatar4, race=tri_avatar3
 #: Trinity/units/avatar/Ancient_Avatar.cfg:5
+#: Trinity/units/avatar/Trinity_Avatar4.cfg:5
 msgid "Ancient Avatar"
 msgstr ""
 
 #. [unit_type]: id=Trinity Avatar, race=tri_avatar
+#. [unit_type]: id=Trinity Avatar4, race=tri_avatar3
 #: Trinity/units/avatar/Ancient_Avatar.cfg:23
+#: Trinity/units/avatar/Trinity_Avatar4.cfg:23
 msgid ""
 "This is a representation of something not of this world.  The entity it "
 "represents uses it to interact with those that are of this world.  Why it "
@@ -9520,58 +9900,102 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Trinity/units/avatar/Ancient_Avatar.cfg:41
+#: Trinity/units/avatar/Trinity_Avatar4.cfg:41
 msgid "Star Blade"
 msgstr ""
 
 #. [attack]: type=arcane
 #: Trinity/units/avatar/Ancient_Avatar.cfg:50
+#: Trinity/units/avatar/Trinity_Avatar4.cfg:50
 msgid "remorse"
 msgstr ""
 
+#. [unit_type]: id=Tri_Daemon0, race=tri_avatar
+#: Trinity/units/avatar/Trinity_Daemon0.cfg:4
+msgid "Nascent Daemon"
+msgstr ""
+
+#. [unit_type]: id=Tri_Daemon1, race=tri_avatar2
+#: Trinity/units/avatar/Trinity_Daemon1.cfg:4
+msgid "Earth Daemon"
+msgstr ""
+
+#. [attack]: type=impact
+#: Trinity/units/avatar/Trinity_Daemon1.cfg:39
+msgid "glob"
+msgstr ""
+
+#. [unit_type]: id=Tri_Daemon2, race=tri_avatar
+#: Trinity/units/avatar/Trinity_Daemon2.cfg:4
+msgid "Water Daemon"
+msgstr ""
+
+#. [attack]: type=cold
+#. [attack]: type=pierce
+#: Trinity/units/avatar/Trinity_Daemon2.cfg:39
+#: Trinity/units/avatar/Trinity_Daemon4.cfg:36
+msgid "scream"
+msgstr ""
+
+#. [unit_type]: id=Tri_Daemon3, race=tri_avatar2
+#: Trinity/units/avatar/Trinity_Daemon3.cfg:4
+msgid "Fire Daemon"
+msgstr ""
+
+#. [unit_type]: id=Tri_Daemon4, race=tri_avatar
+#: Trinity/units/avatar/Trinity_Daemon4.cfg:4
+msgid "Wind Daemon"
+msgstr ""
+
+#. [attack]: type=blade
+#: Trinity/units/avatar/Trinity_Daemon4.cfg:48
+msgid "gale"
+msgstr ""
+
 #. [unit_type]: id=Trinity Fear, race=tri_avatar
-#: Trinity/units/avatar/Trinity_Trinity.cfg:9
+#: Trinity/units/avatar/Trinity_Trinity.cfg:46
 msgid "Fear Avatar"
 msgstr ""
 
 #. [leadership]: id=tri_fear
-#: Trinity/units/avatar/Trinity_Trinity.cfg:16
+#: Trinity/units/avatar/Trinity_Trinity.cfg:53
 msgid "fear"
 msgstr ""
 
 #. [leadership]: id=tri_fear
-#: Trinity/units/avatar/Trinity_Trinity.cfg:17
+#: Trinity/units/avatar/Trinity_Trinity.cfg:54
 msgid "female^fear"
 msgstr ""
 
 #. [leadership]: id=tri_fear
-#: Trinity/units/avatar/Trinity_Trinity.cfg:18
+#: Trinity/units/avatar/Trinity_Trinity.cfg:55
 msgid ""
 "This unit strikes fear into the units next to it, making them fight worse.  "
 "It affects all levels."
 msgstr ""
 
 #. [unit_type]: id=Trinity Stupid, race=tri_avatar
-#: Trinity/units/avatar/Trinity_Trinity.cfg:40
+#: Trinity/units/avatar/Trinity_Trinity.cfg:78
 msgid "Stupidity Avatar"
 msgstr ""
 
 #. [attack]: type=blade
-#: Trinity/units/avatar/Trinity_Trinity.cfg:46
+#: Trinity/units/avatar/Trinity_Trinity.cfg:84
 msgid "cleaver"
 msgstr ""
 
 #. [attack]: type=impact
-#: Trinity/units/avatar/Trinity_Trinity.cfg:54
+#: Trinity/units/avatar/Trinity_Trinity.cfg:92
 msgid "confusion"
 msgstr ""
 
 #. [unit_type]: id=Trinity Cruel, race=tri_avatar
-#: Trinity/units/avatar/Trinity_Trinity.cfg:72
+#: Trinity/units/avatar/Trinity_Trinity.cfg:111
 msgid "Cruelty Avatar"
 msgstr ""
 
 #. [attack]: type=blade
-#: Trinity/units/avatar/Trinity_Trinity.cfg:79
+#: Trinity/units/avatar/Trinity_Trinity.cfg:118
 msgid "dark sword"
 msgstr ""
 
@@ -10084,48 +10508,53 @@ msgstr ""
 msgid "point-defense"
 msgstr ""
 
-#. [unit_type]: id=Mech_Seth Dragon, race=mechanical
+#. [unit_type]: id=Mech_Seth Dragon, race=tri_mech
 #. [unit_type]: id=Mech_Seth Dragon2
-#. [unit_type]: id=Mechanical Dragon Base, race=mechanical
-#. [unit_type]: id=Mechanical Dragon Broken, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoGun, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoJaw, race=mechanical
-#. [unit_type]: id=Mechanical Dragon, race=mechanical
+#. [unit_type]: id=Mechanical Dragon Base, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon Broken, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon NoGun, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon NoJaw, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon, race=tri_mech
 #: Trinity/units/mechs/Mechanical_Dragon.cfg:356
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:476
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:495
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:647
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:720
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:793
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:864
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:489
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:508
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:678
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:765
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:852
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:937
 msgid "Mechanical Dragon"
 msgstr ""
 
-#. [dummy]: id=radioactive
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:380
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:882
-msgid "radioactive"
+#. [regenerate]: id=md_regenerates
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:391
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:548
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:698
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:785
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:872
+msgid "auto-repair"
 msgstr ""
 
-#. [dummy]: id=radioactive
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:381
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:883
-msgid ""
-"Units adjacent to this unit will be poisoned at the start of their turn."
+#. [regenerate]: id=md_regenerates
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:392
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:549
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:699
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:786
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:873
+msgid "The unit will heal itself 24 HP per turn."
 msgstr ""
 
-#. [unit_type]: id=Mech_Seth Dragon, race=mechanical
-#. [unit_type]: id=Mechanical Dragon Base, race=mechanical
-#. [unit_type]: id=Mechanical Dragon Broken, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoGun, race=mechanical
-#. [unit_type]: id=Mechanical Dragon NoJaw, race=mechanical
-#. [unit_type]: id=Mechanical Dragon, race=mechanical
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:395
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:529
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:671
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:744
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:817
-#: Trinity/units/mechs/Mechanical_Dragon.cfg:895
+#. [unit_type]: id=Mech_Seth Dragon, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon Base, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon Broken, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon NoGun, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon NoJaw, race=tri_mech
+#. [unit_type]: id=Mechanical Dragon, race=tri_mech
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:405
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:542
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:712
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:799
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:886
+#: Trinity/units/mechs/Mechanical_Dragon.cfg:968
 msgid ""
 "It's not clear whether this mechanical dragon is really a dragon, but that "
 "is the most fitting description at hand."
@@ -10361,32 +10790,50 @@ msgid "race^Machines"
 msgstr ""
 
 #. [race]: id=tri_avatar
-#: Trinity/units/races.cfg:25
+#. [race]: id=tri_avatar2
+#. [race]: id=tri_avatar3
+#: Trinity/units/races.cfg:25 Trinity/units/races.cfg:70
+#: Trinity/units/races.cfg:116
 msgid "race^Avatar"
 msgstr ""
 
 #. [race]: id=tri_avatar
-#: Trinity/units/races.cfg:26
+#. [race]: id=tri_avatar2
+#. [race]: id=tri_avatar3
+#: Trinity/units/races.cfg:26 Trinity/units/races.cfg:71
+#: Trinity/units/races.cfg:117
 msgid "race+female^Avatar"
 msgstr ""
 
 #. [race]: id=tri_avatar
-#: Trinity/units/races.cfg:27
+#. [race]: id=tri_avatar2
+#. [race]: id=tri_avatar3
+#: Trinity/units/races.cfg:27 Trinity/units/races.cfg:72
+#: Trinity/units/races.cfg:118
 msgid "race^Avatars"
 msgstr ""
 
 #. [trait]: id=tri_elemental
-#: Trinity/units/races.cfg:35
+#. [trait]: id=tri_elemental2
+#. [trait]: id=tri_elemental3
+#: Trinity/units/races.cfg:35 Trinity/units/races.cfg:80
+#: Trinity/units/races.cfg:126
 msgid "elemental"
 msgstr ""
 
 #. [trait]: id=tri_elemental
-#: Trinity/units/races.cfg:36
+#. [trait]: id=tri_elemental2
+#. [trait]: id=tri_elemental3
+#: Trinity/units/races.cfg:36 Trinity/units/races.cfg:81
+#: Trinity/units/races.cfg:127
 msgid "female^elemental"
 msgstr ""
 
 #. [trait]: id=tri_elemental
-#: Trinity/units/races.cfg:37
+#. [trait]: id=tri_elemental2
+#. [trait]: id=tri_elemental3
+#: Trinity/units/races.cfg:37 Trinity/units/races.cfg:82
+#: Trinity/units/races.cfg:128
 msgid "Immune to drain, poison, and plague"
 msgstr ""
 
@@ -10621,8 +11068,8 @@ msgstr ""
 #. [terrain_type]: id=tri_dptower1
 #. [terrain_type]: id=tri_dptower2
 #. [time]: id=tri_sand_tower
-#: Trinity/utils/schedules.cfg:42 Trinity/utils/terrain.cfg:82
-#: Trinity/utils/terrain.cfg:93 Trinity/utils/terrain.cfg:290
+#: Trinity/utils/schedules.cfg:42 Trinity/utils/terrain-dp.cfg:72
+#: Trinity/utils/terrain-dp.cfg:83 Trinity/utils/terrain-tower.cfg:118
 msgid "Tower"
 msgstr ""
 
@@ -10642,12 +11089,12 @@ msgid "Dawn"
 msgstr ""
 
 #. [terrain_type]: id=tri_machine2
-#: Trinity/utils/terrain.cfg:7
+#: Trinity/utils/terrain-dp.cfg:7
 msgid "Big Machine"
 msgstr ""
 
 #. [terrain_type]: id=tri_machine
-#: Trinity/utils/terrain.cfg:18
+#: Trinity/utils/terrain-dp.cfg:18
 msgid "Machine"
 msgstr ""
 
@@ -10655,245 +11102,226 @@ msgstr ""
 #. [terrain_type]: id=tri_gate_east2
 #. [terrain_type]: id=tri_gate_west
 #. [terrain_type]: id=tri_gate_west2
-#: Trinity/utils/terrain.cfg:29 Trinity/utils/terrain.cfg:40
-#: Trinity/utils/terrain.cfg:51 Trinity/utils/terrain.cfg:62
+#: Trinity/utils/terrain-dp.cfg:29 Trinity/utils/terrain-dp.cfg:40
+#: Trinity/utils/terrain-dp.cfg:51 Trinity/utils/terrain-dp.cfg:62
 msgid "Gate"
 msgstr ""
 
-#. [terrain_type]: id=tri_radio
-#: Trinity/utils/terrain.cfg:72
-msgid "Radioactive"
-msgstr ""
-
-#. [terrain_type]: id=tri_radio
-#: Trinity/utils/terrain.cfg:73
-msgid "Radioactive Ground"
-msgstr ""
-
 #. [terrain_type]: id=tri_dptower2
-#: Trinity/utils/terrain.cfg:83
+#: Trinity/utils/terrain-dp.cfg:73
 msgid "DP Tower upper"
 msgstr ""
 
 #. [terrain_type]: id=tri_dptower1
-#: Trinity/utils/terrain.cfg:94
+#: Trinity/utils/terrain-dp.cfg:84
 msgid "DP Tower"
 msgstr ""
 
-#. [terrain_type]: id=tri_skymtn1
-#: Trinity/utils/terrain.cfg:104 Trinity/utils/terrain.cfg:105
-msgid "Ledge"
-msgstr ""
-
-#. [terrain_type]: id=tri_ironruins0
-#: Trinity/utils/terrain.cfg:114 Trinity/utils/terrain.cfg:115
-msgid "Iron Ruins"
-msgstr ""
-
-#. [terrain_type]: id=tri_chains0
-#: Trinity/utils/terrain.cfg:124 Trinity/utils/terrain.cfg:125
-msgid "Chains"
-msgstr ""
-
-#. [terrain_type]: id=tri_chains1
-#: Trinity/utils/terrain.cfg:134
-msgid "Iron Beam"
-msgstr ""
-
-#. [terrain_type]: id=tri_chains1
-#: Trinity/utils/terrain.cfg:135
-msgid "Beam"
-msgstr ""
-
-#. [terrain_type]: id=tri_chains2
-#: Trinity/utils/terrain.cfg:144
-msgid "chain clump"
-msgstr ""
-
-#. [terrain_type]: id=tri_chains2
-#: Trinity/utils/terrain.cfg:145
-msgid "clump"
-msgstr ""
-
-#. [terrain_type]: id=tri_moon
-#. [terrain_type]: id=tri_stars
-#. [terrain_type]: id=tri_stars0
-#. [terrain_type]: id=tri_stars2
-#. [terrain_type]: id=tri_stars3
-#: Trinity/utils/terrain.cfg:154 Trinity/utils/terrain.cfg:164
-#: Trinity/utils/terrain.cfg:174 Trinity/utils/terrain.cfg:184
-#: Trinity/utils/terrain.cfg:194
-msgid "Sky"
-msgstr ""
-
-#. [terrain_type]: id=tri_stars0
-#: Trinity/utils/terrain.cfg:155
-msgid "No Stars"
-msgstr ""
-
-#. [terrain_type]: id=tri_stars
-#: Trinity/utils/terrain.cfg:165
-msgid "Stars"
-msgstr ""
-
-#. [terrain_type]: id=tri_stars2
-#: Trinity/utils/terrain.cfg:175
-msgid "Red Stars"
-msgstr ""
-
-#. [terrain_type]: id=tri_stars3
-#: Trinity/utils/terrain.cfg:185
-msgid "Trans Stars"
-msgstr ""
-
-#. [terrain_type]: id=tri_moon
-#: Trinity/utils/terrain.cfg:195
-msgid "Moon"
-msgstr ""
-
-#. [terrain_type]: id=tri_platter
-#: Trinity/utils/terrain.cfg:204 Trinity/utils/terrain.cfg:205
-msgid "Platter"
-msgstr ""
-
-#. [terrain_type]: id=tri_sky_console
-#: Trinity/utils/terrain.cfg:216 Trinity/utils/terrain.cfg:217
-msgid "Steering Console"
-msgstr ""
-
-#. [terrain_type]: id=tri_oak_dead
-#: Trinity/utils/terrain.cfg:228
-msgid "Great Oak"
-msgstr ""
-
-#. [terrain_type]: id=tri_oak_dead
-#: Trinity/utils/terrain.cfg:229
-msgid "Dead Great Oak"
-msgstr ""
-
-#. [terrain_type]: id=tri_brazier
-#: Trinity/utils/terrain.cfg:240
-msgid "Lit Brazier"
-msgstr ""
-
-#. [terrain_type]: id=tri_brazier2
-#: Trinity/utils/terrain.cfg:250
-msgid "Brazier"
-msgstr ""
-
-#. [terrain_type]: id=phan2_closed-door
-#: Trinity/utils/terrain.cfg:260
-msgid "Closed Door"
-msgstr ""
-
-#. [terrain_type]: id=dp_open-door
-#. [terrain_type]: id=phan2_open-door
-#: Trinity/utils/terrain.cfg:270 Trinity/utils/terrain.cfg:337
-msgid "Open Door"
-msgstr ""
-
-#. [terrain_type]: id=phan2_window1
-#: Trinity/utils/terrain.cfg:280
-msgid "Window"
-msgstr ""
-
-#. [terrain_type]: id=tri_unlitfire
-#: Trinity/utils/terrain.cfg:300
-msgid "Unlit Fire"
-msgstr ""
-
-#. [terrain_type]: id=phan3_tower
-#: Trinity/utils/terrain.cfg:309
-msgid "Towerfront"
-msgstr ""
-
-#. [terrain_type]: id=phan2_top
-#: Trinity/utils/terrain.cfg:318
-msgid "Platform"
-msgstr ""
-
 #. [terrain_type]: id=dp_floor
-#: Trinity/utils/terrain.cfg:327
+#: Trinity/utils/terrain-dp.cfg:94
 msgid "Road"
 msgstr ""
 
 #. [terrain_type]: id=dp_floor
-#: Trinity/utils/terrain.cfg:328
+#: Trinity/utils/terrain-dp.cfg:95
 msgid "tile floor"
 msgstr ""
 
+#. [terrain_type]: id=dp_open-door
+#. [terrain_type]: id=phan2_open-door
+#: Trinity/utils/terrain-dp.cfg:104 Trinity/utils/terrain-tower.cfg:98
+msgid "Open Door"
+msgstr ""
+
 #. [terrain_type]: id=dp_sand
-#: Trinity/utils/terrain.cfg:347
+#: Trinity/utils/terrain-dp.cfg:114
 msgid "Moon Dust"
 msgstr ""
 
 #. [terrain_type]: id=dp_crater
-#: Trinity/utils/terrain.cfg:356
+#: Trinity/utils/terrain-dp.cfg:123
 msgid "Moon Crater"
 msgstr ""
 
+#. [terrain_type]: id=dp_rift_small
+#: Trinity/utils/terrain-dp.cfg:133
+msgid "Small Rift"
+msgstr ""
+
 #. [terrain_type]: id=dp_rim_open
-#: Trinity/utils/terrain.cfg:366
+#: Trinity/utils/terrain-dp.cfg:143
 msgid "Vacant Chute"
 msgstr ""
 
 #. [terrain_type]: id=dp_rim_fire
-#: Trinity/utils/terrain.cfg:376
+#: Trinity/utils/terrain-dp.cfg:153
 msgid "Burning Chute"
 msgstr ""
 
 #. [terrain_type]: id=dp_rim_filled
-#: Trinity/utils/terrain.cfg:386
+#: Trinity/utils/terrain-dp.cfg:163
 msgid "Occupied Chute"
 msgstr ""
 
-#. [terrain_type]: id=canyon_tri
-#. [terrain_type]: id=chasm_earthy_tri
-#: Trinity/utils/terrain.cfg:401 Trinity/utils/terrain.cfg:412
-msgid "Chasm"
+#. [terrain_type]: id=dp_fire_crater
+#: Trinity/utils/terrain-dp.cfg:175
+msgid "Burning Crater"
 msgstr ""
 
-#. [terrain_type]: id=canyon_tri
-#: Trinity/utils/terrain.cfg:402
-msgid "Reg Chasm no trans"
-msgstr ""
-
-#. [terrain_type]: id=chasm_earthy_tri
-#: Trinity/utils/terrain.cfg:413
-msgid "E Chasm no trans"
-msgstr ""
-
-#. [terrain_type]: id=tri_arc
-#: Trinity/utils/terrain.cfg:2856
-msgid "Arc"
-msgstr ""
-
-#. [terrain_type]: id=tri_trash
-#: Trinity/utils/terrain.cfg:2907
-msgid "Trash"
-msgstr ""
-
-#. [terrain_type]: id=tri_bones
-#: Trinity/utils/terrain.cfg:2916
-msgid "Remains"
-msgstr ""
-
-#. [terrain_type]: id=phan1
-#: Trinity/utils/terrain.cfg:3263
-msgid "Dry Dirt"
-msgstr ""
-
-#. [terrain_type]: id=phan2
-#: Trinity/utils/terrain.cfg:3349
-msgid "Ice Floor"
+#. [terrain_type]: id=dp_smoke1
+#: Trinity/utils/terrain-dp.cfg:185
+msgid "Smoke"
 msgstr ""
 
 #. [terrain_type]: id=mirror0p5
 #. [terrain_type]: id=mirror1
 #. [terrain_type]: id=mirror2
-#: Trinity/utils/terrain.cfg:3398 Trinity/utils/terrain.cfg:3407
-#: Trinity/utils/terrain.cfg:3416
+#: Trinity/utils/terrain-dp.cfg:1255 Trinity/utils/terrain-dp.cfg:1273
+#: Trinity/utils/terrain-dp.cfg:1282
 msgid "Mirror"
+msgstr ""
+
+#. [terrain_type]: id=mirror0
+#: Trinity/utils/terrain-dp.cfg:1264
+msgid "Broken Mirror"
+msgstr ""
+
+#. [terrain_type]: id=tri_moon
+#. [terrain_type]: id=tri_stars
+#. [terrain_type]: id=tri_stars0
+#. [terrain_type]: id=tri_stars2
+#. [terrain_type]: id=tri_stars3
+#: Trinity/utils/terrain-tower.cfg:6 Trinity/utils/terrain-tower.cfg:16
+#: Trinity/utils/terrain-tower.cfg:26 Trinity/utils/terrain-tower.cfg:36
+#: Trinity/utils/terrain-tower.cfg:46
+msgid "Sky"
+msgstr ""
+
+#. [terrain_type]: id=tri_stars0
+#: Trinity/utils/terrain-tower.cfg:7
+msgid "No Stars"
+msgstr ""
+
+#. [terrain_type]: id=tri_stars
+#: Trinity/utils/terrain-tower.cfg:17
+msgid "Stars"
+msgstr ""
+
+#. [terrain_type]: id=tri_stars2
+#: Trinity/utils/terrain-tower.cfg:27
+msgid "Red Stars"
+msgstr ""
+
+#. [terrain_type]: id=tri_stars3
+#: Trinity/utils/terrain-tower.cfg:37
+msgid "Trans Stars"
+msgstr ""
+
+#. [terrain_type]: id=tri_moon
+#: Trinity/utils/terrain-tower.cfg:47
+msgid "Moon"
+msgstr ""
+
+#. [terrain_type]: id=tri_platter
+#: Trinity/utils/terrain-tower.cfg:56 Trinity/utils/terrain-tower.cfg:57
+msgid "Platter"
+msgstr ""
+
+#. [terrain_type]: id=tri_brazier
+#: Trinity/utils/terrain-tower.cfg:68
+msgid "Lit Brazier"
+msgstr ""
+
+#. [terrain_type]: id=tri_brazier2
+#: Trinity/utils/terrain-tower.cfg:78
+msgid "Brazier"
+msgstr ""
+
+#. [terrain_type]: id=phan2_closed-door
+#: Trinity/utils/terrain-tower.cfg:88
+msgid "Closed Door"
+msgstr ""
+
+#. [terrain_type]: id=phan2_window1
+#: Trinity/utils/terrain-tower.cfg:108
+msgid "Window"
+msgstr ""
+
+#. [terrain_type]: id=phan3_tower
+#: Trinity/utils/terrain-tower.cfg:128
+msgid "Towerfront"
+msgstr ""
+
+#. [terrain_type]: id=phan2_top
+#: Trinity/utils/terrain-tower.cfg:137
+msgid "Platform"
+msgstr ""
+
+#. [terrain_type]: id=tri_arc
+#: Trinity/utils/terrain-tower.cfg:1612
+msgid "Arc"
+msgstr ""
+
+#. [terrain_type]: id=tri_crap
+#. [terrain_type]: id=tri_crap2
+#: Trinity/utils/terrain.cfg:6 Trinity/utils/terrain.cfg:7
+#: Trinity/utils/terrain.cfg:15 Trinity/utils/terrain.cfg:16
+msgid "crap"
+msgstr ""
+
+#. [terrain_type]: id=tri_skymtn1
+#: Trinity/utils/terrain.cfg:25 Trinity/utils/terrain.cfg:26
+msgid "Ledge"
+msgstr ""
+
+#. [terrain_type]: id=tri_ironruins0
+#: Trinity/utils/terrain.cfg:35 Trinity/utils/terrain.cfg:36
+msgid "Iron Ruins"
+msgstr ""
+
+#. [terrain_type]: id=tri_chains0
+#: Trinity/utils/terrain.cfg:45 Trinity/utils/terrain.cfg:46
+msgid "Chains"
+msgstr ""
+
+#. [terrain_type]: id=tri_chains1
+#: Trinity/utils/terrain.cfg:55
+msgid "Iron Beam"
+msgstr ""
+
+#. [terrain_type]: id=tri_chains1
+#: Trinity/utils/terrain.cfg:56
+msgid "Beam"
+msgstr ""
+
+#. [terrain_type]: id=tri_chains2
+#: Trinity/utils/terrain.cfg:65
+msgid "chain clump"
+msgstr ""
+
+#. [terrain_type]: id=tri_chains2
+#: Trinity/utils/terrain.cfg:66
+msgid "clump"
+msgstr ""
+
+#. [terrain_type]: id=tri_sky_console
+#: Trinity/utils/terrain.cfg:75 Trinity/utils/terrain.cfg:76
+msgid "Steering Console"
+msgstr ""
+
+#. [terrain_type]: id=tri_oak_dead
+#: Trinity/utils/terrain.cfg:87
+msgid "Great Oak"
+msgstr ""
+
+#. [terrain_type]: id=tri_oak_dead
+#: Trinity/utils/terrain.cfg:88
+msgid "Dead Great Oak"
+msgstr ""
+
+#. [terrain_type]: id=tri_unlitfire
+#: Trinity/utils/terrain.cfg:99
+msgid "Unlit Fire"
 msgstr ""
 
 #. [part]
